@@ -1,0 +1,46 @@
+{
+
+	"Changes": [
+
+		// Events //////////////////////////////////////////////////////////
+		// 8h vanilla event = eventid 
+
+		// Events
+		{
+			"Action": "Include",
+			"FromFile": "Assets/Base/Si_SF_Events.json",
+    	},
+
+		// Quests
+		{
+			"Action": "Include",
+			"FromFile": "Assets/Base/Si_SF_Quests.json",
+    	},
+
+		// Other NPC Dialogue
+		{
+			"Action": "Include",
+			"FromFile": "Assets/Base/Si_SF_NPCDial.json",
+		},
+
+		// Penny Dialogue
+		{
+			"Action": "Include",
+			"FromFile": "Assets/Base/Si_SF_SebDial.json",
+		},
+
+		// Locations //////////////////////////////////////////////////////////
+
+		// {
+		// 	"LogName": "Si SF Gourmand Frog Cave Events",
+		// 	"Action": "Load",
+		// 	"Target": "Data/Events/IslandFarmCave",
+		// 	"FromFile": "Assets/Base/Si_SF_CaveEvents.json",
+		// 	"Priority": "Low"
+    	// },
+
+		// End //////////////////////////////////////////////////////////
+
+	],
+
+}
