@@ -13,6 +13,7 @@
 				"PilotPenny2": "I can't stop thinking about that flight!$1#$b#It was like nothing I've ever read before.#$b#I've been trying to tell everyone about it, but it's so hard to put into words!$1",
 				"PilotPenny4": "I was worried that it would be too early to start introducing the children to the concept of bouyancy, but they're really catching on!$1#$b#I wish I could take them up for a balloon ride. Maybe when they're older...",
 				"PilotPenny5": "My own balloon...$2#$b#Oh, sorry @, I didn't see you there.$3#$b#Did you need something?",
+				"PilotPenny7": "My balloon plans are almost done!#$b#I'm going to start building it soon!$1",
 			},
 		},
 
@@ -22,6 +23,7 @@
 			"Target": "Characters/Dialogue/Pam",
 			"Entries": {
 				"PilotPenny3": "Listen, don't tell Penny what we talked about, kay?$4#$b#I don't wanna dampen that fire she's building up.$4",
+				"PilotPenny7": "Penny sure cares about that balloon she's building huh...$2",
 			},
 		},
 
