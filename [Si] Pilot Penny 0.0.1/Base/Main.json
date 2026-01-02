@@ -3,19 +3,12 @@
 	"Changes": [
 
 		// Events //////////////////////////////////////////////////////////
-		// 8h vanilla event = eventid 
 
 		// Events
 		{
 			"Action": "Include",
 			"FromFile": "Base/Events.json",
     	},
-
-		// Quests
-		// {
-		// 	"Action": "Include",
-		// 	"FromFile": "Assets/Base/Si_SF_Quests.json",
-    	// },
 
 		// Other NPC Dialogue
 		// {
@@ -31,13 +24,32 @@
 
 		// Locations //////////////////////////////////////////////////////////
 
-		// {
-		// 	"LogName": "Si SF Gourmand Frog Cave Events",
-		// 	"Action": "Load",
-		// 	"Target": "Data/Events/IslandFarmCave",
-		// 	"FromFile": "Assets/Base/Si_SF_CaveEvents.json",
-		// 	"Priority": "Low"
-    	// },
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_Map1",
+			"FromFile": "BalloonSky.tmx",
+		},
+			
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"{{ModId}}_Map1": {
+					"DisplayName": "Balloon Flight Path",						
+					"CreateOnLoad": { 
+						"MapPath": "Maps/{{ModId}}_Map1" 
+					},
+					"DefaultArrivalTile": {
+						"X": 15,
+						"Y": 6
+					}
+				}
+			}
+		},
+
+		// Balloon Map Patch
+
+		// Map Strings (no flights at night or in rain)
 
 		// End //////////////////////////////////////////////////////////
 
