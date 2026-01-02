@@ -1,7 +1,7 @@
 {
 	"Name": "[Si] Pilot Penny",
 	"Author": "SiTheGreat",
-	"Description": "Penny Expansion",
+	"Description": "Penny takes to the skies!",
 	"Version": "1.0.0",
 	"UniqueID": "Si.PilotPenny",
 	"UpdateKeys": [ "Nexus:" ],
@@ -9,6 +9,10 @@
 		"UniqueID": "Pathoschild.ContentPatcher",
 	},
 	"Dependencies": [
+		{
+			"UniqueID": "spacechase0.SpaceCore",
+			"IsRequired": true
+		},
 		{
 			"UniqueID": "Si.BC",
 			"IsRequired": false
