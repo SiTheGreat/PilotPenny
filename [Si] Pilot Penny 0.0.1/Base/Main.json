@@ -8,26 +8,26 @@
 		// Events
 		{
 			"Action": "Include",
-			"FromFile": "Assets/Base/Si_SF_Events.json",
+			"FromFile": "Base/Events.json",
     	},
 
 		// Quests
-		{
-			"Action": "Include",
-			"FromFile": "Assets/Base/Si_SF_Quests.json",
-    	},
+		// {
+		// 	"Action": "Include",
+		// 	"FromFile": "Assets/Base/Si_SF_Quests.json",
+    	// },
 
 		// Other NPC Dialogue
-		{
-			"Action": "Include",
-			"FromFile": "Assets/Base/Si_SF_NPCDial.json",
-		},
+		// {
+		// 	"Action": "Include",
+		// 	"FromFile": "Assets/Base/Si_SF_NPCDial.json",
+		// },
 
 		// Penny Dialogue
-		{
-			"Action": "Include",
-			"FromFile": "Assets/Base/Si_SF_SebDial.json",
-		},
+		// {
+		// 	"Action": "Include",
+		// 	"FromFile": "Assets/Base/Si_SF_SebDial.json",
+		// },
 
 		// Locations //////////////////////////////////////////////////////////
 

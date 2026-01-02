@@ -35,13 +35,13 @@
 
 		// Base Content //////////////////////////////////////////////////////////
 
-		// {
-		// 	"Action": "Include",
-		// 	"FromFile": "Assets/Base/Si_SF.json",
-		// 	"When": {
-		// 		"HasSeenEvent:hostPlayer |contains=29": true,
-		// 	}
-		// },
+		{
+			"Action": "Include",
+			"FromFile": "Base/Main.json",
+			// "When": {
+			// 	"HasSeenEvent:hostPlayer |contains=29": true,
+			// }
+		},
 
 		// Compatibility Patches //////////////////////////////////////////////////////////
 
