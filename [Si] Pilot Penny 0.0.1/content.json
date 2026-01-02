@@ -38,9 +38,9 @@
 		{
 			"Action": "Include",
 			"FromFile": "Base/Main.json",
-			// "When": {
-			// 	"HasSeenEvent:hostPlayer |contains=29": true,
-			// }
+			"When": {
+				"Hearts:Penny": "8, 9, 10, 11, 12, 13, 14",
+			}
 		},
 
 		// Compatibility Patches //////////////////////////////////////////////////////////

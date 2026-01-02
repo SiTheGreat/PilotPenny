@@ -1,0 +1,45 @@
+{
+
+	"Changes": [
+
+	// Images ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+		"Action": "Load",
+		"Target": "Characters/{{ModId}}_TempNPC",
+		"FromFile": "Base/TempNPC.png",
+	},
+
+	// {
+	// 	"Action": "Load",
+	// 	"Target": "Portraits/{{ModId}}_TempNPC",
+	// 	"FromFile": "Characters/TempNPC/TempNPCPortrait.png",
+	// },
+
+	// Disposition ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Characters",
+		"Entries": {
+			"{{ModId}}_TempNPC": {
+				// Char
+				"DisplayName": "TempNPC",
+				"Gender": "Undefined",
+				"Age": "Adult",
+				"CanSocialize": false,
+				"CanReceiveGifts": false,
+				// Exclusions
+				"WinterStarParticipant": false,
+				"CanGreetNearbyCharacters": false,
+				"SocialTab": "HiddenAlways",
+				"Calendar": "HiddenAlways",
+			}
+		}
+	},
+
+	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	],
+
+}
