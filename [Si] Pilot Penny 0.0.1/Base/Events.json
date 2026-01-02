@@ -24,9 +24,11 @@
 		"spacechase0.SpaceCore/BooksellerInTown": true,
 	},
 	"Entries": {
-		"{{ModId}}_E1/n {{ModId}}_M1/t 900 1700/f Penny 2000": "continue/109 37/farmer 107 37 0 Penny 110 27 0 {{ModId}}_TempNPC 110 26 0/addConversationTopic PilotPenny1 5/skippable/fade/pause 200/move farmer 0 -3 0/pause 200/emote farmer 8/pause 200/viewport 0 -8 5000/emote Penny 40/advancedMove farmer false 0 -5 2 0 0 -3/pause 200/emote Penny 8/pause 200/emote {{ModId}}_TempNPC 40/pause 200/emote Penny 20/pause 200/emote Penny 40/pause 200/emote {{ModId}}_TempNPC 32/pause 200/emote Penny 56/pause 200/emote farmer 8/pause 200/emote Penny 16/pause 200/faceDirection Penny 3/emote {{ModId}}_TempNPC 32/pause 200/
+		"{{ModId}}_E1/n {{ModId}}_M1/t 900 1700/f Penny 2000": "continue/109 37/farmer 109 37 0 Penny 110 27 0 {{ModId}}_TempNPC 110 26 0/addConversationTopic PilotPenny1 5/skippable/fade/pause 200/move farmer 0 -3 0/pause 200/emote farmer 8/pause 200/viewport 0 -8 5000/emote Penny 40/advancedMove farmer false 0 -5 2 0 0 -3/pause 200/emote Penny 8/pause 200/emote {{ModId}}_TempNPC 40/pause 200/emote Penny 20/pause 200/emote Penny 40/pause 200/emote {{ModId}}_TempNPC 32/pause 200/emote Penny 56/pause 200/emote farmer 8/pause 200/emote Penny 16/pause 200/faceDirection Penny 3/emote {{ModId}}_TempNPC 56/pause 200/speak Penny \"Hi @!$1#$b#I've been chatting with Marcello here about his books.#$b#He travels everywhere in that hot air balloon looking for new books to read and sell.#$b#It's such a cool way to distribute them!$1\"/pause 200/emote {{ModId}}_TempNPC 32/message \"Marcello: Oh, I'm flattered!\"/pause 200/emote farmer 56/pause 200/faceDirection Penny 0/pause 200/speak Penny \"I've got to get going, but thank you so much for indulging my questions Marcello.#$b#And for offering to trade books with me! I'll bring some the next time you stop by.$1\"/pause 200/message \"Marcello: Of course Penny! You take care now. I'll keep an eye out for that series you mentioned!\"/pause 200/emote Penny 20/pause 200/advancedMove Penny false 0 3 -2 0 0 5/pause 100/faceDirection farmer 2/pause 100/emote {{ModId}}_TempNPC 32/pause 100/faceDirection farmer 0/pause 200/message \"Marcello: Now @, what books pique your interest today?\"/pause 300/end/fade",
+
+		"{{ModId}}_E2/e {{ModId}}_E1/t 900 1700/f Penny 2000": "continue/109 29/farmer 109 27 0 Penny 110 27 0 {{ModId}}_TempNPC 110 26 0/addConversationTopic PilotPenny2 5/skippable/fade/pause 200/
 		
-		pause 300/speak Sebastian \"Alright, does anyone have questions before we get started?\"/pause 200/quickQuestion Do you have any questions?#Nope.#Why is Vincent here?#What are we doing here again?(break)speak Sebastian \"Good, let's get started.\"(break)speak Sebastian \"Sam's letting me borrow him.\"\\speak Vincent \"My big brother said I can touch as many frogs as I want as long as I don't tell Mom!\"(break)speak Sebastian \"We are starting a conservation project for the endangered Gourmand Frog species.\"/pause 200/move Sebastian 2 0 1/pause 200/advancedMove Sebastian true -4 0 3 200 4 0 1 200/speak Sebastian \"As a conservation project, our objectives are to enhance the survival prospects of the Gourmand Frog population with respect to the local environment, study and monitor local Gourmand Frog behavioral patterns, and spread awareness about Gourmand Frogs and the dangers they face.#$b#Our first step will be to set up habitats around the nearby lake where they can gather and thrive.#$b#To do that we'll need natural materials.#$b#I can get wood and stone from my mom.#$b#That leaves things like moss, fiber, and bug meat.\"/pause 200/speak Vincent \"I can get bug meat!#$b#It's the squishy pink stuff right?\"/pause 200/speak Sebastian \"Yeah, that would be good.#$b#@, what would you like to gather? Remember, we'll need a lot of it.\"/pause 200/quickQuestion Which material would you like to contribute?#Moss.#Fiber.(break)addQuest Si_SF_Q2\\speak Sebastian \"Great, I'll get the fiber.#$b#Bring it to me once you've gathered it all.\"(break)addQuest Si_SF_Q3\\speak Sebastian \"Great, I'll get the moss.#$b#Bring it to me once you've gathered it all.\"/pause 200/stopAdvancedMoves/pause 200/faceDirection Sebastian 0/pause 200/speak Sebastian \"It'll be a long road, but with our help, the Gourmand Frog population will grow to levels not seen since people started living in the valley.#$b#Let's get to it!$7\"/emote farmer 20 true/emote Vincent 20/pause 300/end/fade",
+		
 		},
 	},
 
@@ -34,9 +36,11 @@
 
 	// 3rd - penny tells you she got to go up in the balloon! kind of nervous at first but it's the most exciting thing she's ever done. marcello even gave her some books to learn more about them (she gifts you a bc book on hot air balloons via mail if applicable)
 
-	// Event teaching kids about why balloons float (bouyancy) (she'll send you another book on the topic if you like...) (or maybe CT dialoge instead? If don't talk to her during CT time, it gets randomly sold in the bookseller/pierre shops instead)
+	// Event teaching kids about why balloons float (bouyancy) (she'll send you another book on the topic if you like... (with a force diagram) (or maybe CT dialoge instead? If don't talk to her during CT time, it gets randomly sold in the bookseller/pierre shops instead)
 
 	// farm event: bookseller offered to teach her how to pilot balloons; farmer encourages her to do it
+
+	// Pam event at saloon, talks to farmer about how energetic Penny's been about ballooning
 
 	// farmer arrives right after a lesson, penny raves about it. Marcello: you performed admirably! Soon we can set you up with your own balloon! Penny: (sadly) yeah, maybe... farmer: ?, end scene
 
@@ -52,13 +56,17 @@
 
 	// Emily CT about Penny asking for wesing tips and to borrow her sewing machine
 
-	// Mails on the progress of Penny getting pilot certified under Marcello. Possibly a cert book if applicable
+	// Mails on the progress of Penny getting pilot certified under Marcello. FAA med cert w Harvey - he was very cruous abt the balloons and asked lots of questions. Possibly a cert book if applicable
 
 	// Cert is done! Mail inviting you to fly
 
 	// Use either DaisyNiko or Sharrogg panoramas for flight event. Penny thanks you for helping her try something new
 
+	// CTs - Pam, Maru, Elliott, the kids, their parental figures, Leah, Haley, Harvey, Lewis
+
 	// Bonus event - Pam and Penny go ballooning
+
+	// Bonus event - Penny hangs out with Linus talking about books
 
 	// Bonus marriage event - balloon date like Harvey's
 
