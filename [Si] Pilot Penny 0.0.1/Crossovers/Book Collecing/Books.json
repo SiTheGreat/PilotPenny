@@ -1,0 +1,32 @@
+{
+
+	"Changes": [
+	
+	// Events //////////////////////////////////////////////////////////
+
+	// General book on hot air balloons after {{ModId}}_E3
+
+	// Gift Tastes //////////////////////////////////////////////////////////
+
+	// {
+	// 	"Action": "EditData",
+	// 	"Target": "Data/NPCGiftTastes",
+	// 	"TextOperations": [
+	// 		// Sebastian
+	// 		{
+	// 			"Operation": "Append",
+	// 			"Target": ["Fields", "Sebastian", 1],
+	// 			"Value": "Si.BC_SFSGuideBook",
+	// 			"Delimiter": " "
+	// 		},
+	// 	]
+	// },
+
+	// Books //////////////////////////////////////////////////////////
+
+	// End //////////////////////////////////////////////////////////
+
+	]
+
+
+}

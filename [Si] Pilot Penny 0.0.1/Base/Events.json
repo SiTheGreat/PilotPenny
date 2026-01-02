@@ -34,20 +34,29 @@
 	"Action": "EditData",
 	"Target": "Data/Events/Farm", //
 	"Entries": {
-		"{{ModId}}_E3/e {{ModId}}_E2/t 600 900/f Penny 2000": "continue/26 25/farmer 15 31 0 Penny 26 24 0/addConversationTopic PilotPenny2 5/skippable/fade/pause 300/emote Penny 16/pause 200/speak Penny \"I did it @!$1#$b#I went up in the hot air balloon!\"/pause 200/emote farmer 16/pause 20/emote farmer 32/pause 200/speak Penny \"I'm sorry I'm just so happy!$1#$b#I was really nervous at first, but Marcello explained every step to me, and that helped a lot.#$b#We went so high up!$1#$b#I could see the whole valley, and the mountain peaks, and the sea...#$b#He pointed out some nearby villages like Ridgeside and Sunberry. They looked so close by from up there!#$b#And I even saw a few of Zuzu's skyscrapers!$1\"/pause 200/emote farmer 56/pause 200/emote Penny 32/pause 200/speak Penny \"It was magical @...$3#$b#I wish I could go up there every day.\"/pause 200/emote farmer 20/pause 200/emote Penny 60/speak Penny \"Sorry to stop by so early, I just had to tell you all about it!$3#$b#He gave me some books to learn more about hot air balloons, so I'm going to go read them.#$b#It was good to see you @!\"/pause 200/emote farmer 32/pause 300/end/fade",
-		
+		"{{ModId}}_E3/e {{ModId}}_E2/t 600 900/f Penny 2000": "continue/26 25/farmer 15 31 0 Penny 26 24 0/addConversationTopic PilotPenny2 3/skippable/fade/pause 300/emote Penny 16/pause 200/speak Penny \"I did it @!$1#$b#I went up in the hot air balloon!\"/pause 200/emote farmer 16/pause 20/emote farmer 32/pause 200/speak Penny \"I'm sorry I'm just so happy!$1#$b#I was really nervous at first, but Marcello explained every step to me, and that helped a lot.#$b#We went so high up!$1#$b#I could see the whole valley, and the mountain peaks, and the sea...#$b#He pointed out some nearby villages like Ridgeside and Sunberry. They looked so close by from up there!#$b#And I even saw a few of Zuzu's skyscrapers!$1\"/pause 200/emote farmer 56/pause 200/emote Penny 32/pause 200/speak Penny \"It was magical @...$3#$b#I wish I could go up there every day.\"/pause 200/emote farmer 20/pause 200/emote Penny 60/speak Penny \"Sorry to stop by so early, I just had to tell you all about it!$3#$b#He gave me some books to learn more about hot air balloons, so I'm going to go read them.#$b#It was good to see you @!\"/pause 200/emote farmer 32/pause 300/end/fade",
 		},
 	},
 
-	// 3rd - '@! i did it! I went up i the hot air balloon! sorry I'm just so happy. penny tells you she got to go up in the balloon! kind of nervous at first but it's the most exciting thing she's ever done. marcello even gave her some books to learn more about them (she gifts you a bc book on hot air balloons via mail if applicable)
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Saloon", //
+	"Entries": {
+		"{{ModId}}_E4/e {{ModId}}_E3/t 1700 2200/A PilotPenny2/f Penny 2000": "continue/7 21/farmer 10 20 0 Pam 2 20 1 Gus 10 18 2 Emily 16 17 0 Lewis 14 20 0 Clint 16 22 1 Leah 12 21 3 Elliott 9 22 1/addConversationTopic PilotPenny3 5/skippable/fade/pause 300/emote Gus 56/pause 100/emote Leah 40/pause 200/emote farmer 32/pause 200/move farmer -5 0 3 true/emote Elliott 8/pause 200/emote Clint 56/pause 200/speak Pam \"Hey @, how's it going?\"/pause 200/emote farmer 32/pause 200/speak Pam \"Good, good.\"/pause 300/playSound gulp/speak Pam \"Didja hear?#$b#Penny got to ride in a hot air balloon!$1\"/emote Leah 8/pause 200/emote farmer 20/playSound gulp/pause 100/playSound gulp/pause 200/speak Pam \"I was worried it'd cost a lot...$2#$b#But she spent books instead of money.$4#$b#For an experience like that? Can't say I blame her!$1\"/emote Lewis 32/pause 200/emote farmer 56/pause 200/emote Pam 40/pause 200/playSound gulp/emote Emily 40/speak Pam \"I've never seen her so full of energy before.$2#$b#Like a spark just lit up inside her.$2\"/pause 200/emote Elliott 28/pause 100/emote Pam 40/pause 200/speak Pam \"I never wanted to drag her down, you know?$4#$b#But I always felt like she was stuck in this small ton because of me.$4#$b#And now it feels like she's about to fly away...$2\"/pause 200/emote Leah 32/playSound gulp/pause 100/playSound gulp/pause 200/speak Pam \"Is it...$2#$b#Selfish...$2#$b#Of me, to want her to stay?$2#$b#Now that she might have a way out?$4\"/pause 200/emote farmer 40/pause 200/quickQuestion What do you say?#Yes, you need to let go of her and let her live her own life.#No, you just care a lot about her presence in your life.#Yes, but there's nothing wrong with feeling that way.(break)speak Pam \"Yeah, you're right.$4#$b#I get in my own way enough, no need to get in her way too.#1\"(break)speak Pam \"Yeah, you're right.$4#$b#She's the most stable thing I've ever had, and I don't want to lose that.$2#$b#But she deserves better.$4\"(break)pause 200\\emote Pam 40\\pause 200\\speak Pam \"I'm not very good at feeling... feelings.$2#$b#That's why I come here.$4#$b#That's why I have a job where I can just focus on the road.$4#$b#So I don't have think about people outside of the usual.$2#$b#'Cause that's all people are, really.$4#$b#Feelings with legs.\"/pause 200/emote Lewis 56/playSound gulp/pause 100/playSound gulp/farmer 40/pause 200/speak Pam \"Look at me getting all sentimental.#$b#You didn't come here for that.#$b#Hey Gus! Another round!$1\"/pause 200/emote farmer 28/pause 300/end/fade",
+		},
+	},
 
-	// Event teaching kids about why balloons float (bouyancy) (she'll send you another book on the topic if you like... (with a force diagram) (or maybe CT dialoge instead? If don't talk to her during CT time, it gets randomly sold in the bookseller/pierre shops instead)
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Saloon", //
+	"Entries": {
+		"{{ModId}}_E5/e {{ModId}}_E4/t 1700 2200/A PilotPenny2/f Penny 2000": "continue/7 21/farmer 10 20 0 Pam 2 20 1 Gus 10 18 2 Emily 16 17 0 Lewis 14 20 0 Clint 16 22 1 Leah 12 21 3 Elliott 9 22 1/addConversationTopic PilotPenny4 5/skippable/fade/pause 300",
+		},
+	},
 
-	// farm event: went up in a balloon again; bookseller offered to teach her how to pilot balloons; farmer encourages her to do it
+	// Event teaching kids about why balloons float (bouyancy) (she'll send you another book on the topic if you like... (with a force diagram) (or maybe CT dialoge instead? If don't talk to her during CT time, it gets randomly sold in the bookseller/pierre shops instead)t
 
-	// Pam event at saloon, talks to farmer about how energetic Penny's been about ballooning
-
-	// farmer arrives right after a lesson, penny raves about it. Marcello: you performed admirably! Soon we can set you up with your own balloon! Penny: (sadly) yeah, maybe... farmer: ?, end scene
+	// farmer arrives right after a flight, penny raves about it. Marcello: you performed admirably! I can help you learn ad=nd get certified if you'd like; then we can set you up with your own balloon! Penny: (sadly) yeah, maybe... farmer: ?, end scene
 
 	// Later event, Penny preparing for a lesson in the library, farmer greets her 'hi farmer!', farmer ?, penny 'I seem sad? Hmm... I was just thinking about that balloon lesson with marcello. I'd love to have my own balloon someday, but those cost a lot. Maybe if I save up... farmer: I'll help you buy it//I appreciate it, but I couldn't ask that... maybe I can make one? (or farmer: maybe you can build one?); Penny hmm I wonder if there's any books on making balloons. It would have to follow safety standards... (book on ballooncraft if applicable)
 
@@ -57,7 +66,7 @@
 
 	// Penny: it'll be small, plain, and won't go very high, but it'll work for practice at least. Thanks @!
 
-	// Pam: here kid, saved up some of my drink money to buy more cloth. Penny's real excited about this, I don't want her to be limited. Help her touch the sky! gives farmer money and quest to give Penny more cloth
+	// Pam: here kid, saved up some of my drink money to buy more cloth. Penny's real excited about this, I don't want her to be limited. The sky might be the limit, but I sure as hell won't be! gives farmer money and quest to give Penny more cloth
 
 	// Emily CT about Penny asking for wesing tips and to borrow her sewing machine
 

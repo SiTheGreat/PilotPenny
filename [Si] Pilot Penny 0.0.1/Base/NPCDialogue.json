@@ -10,6 +10,16 @@
 			"Target": "Characters/Dialogue/Penny",
 			"Entries": {
 				"PilotPenny1": "Can you imagine?$3#$b#Soaring high above the clouds, going wherever you want...#$b#Looking for new books to read and share!$1#$b#I wish I could do that...",
+				"PilotPenny2": "I can't stop thinking about that flight!$1#$b#It was like nothing I've ever read before.#$b#I've been trying to tell everyone about it, but it's so hard to put into words!$1",
+			},
+		},
+
+		// Pam
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pam",
+			"Entries": {
+				"PilotPenny3": "Listen, don't tell Penny what we talked about, kay?$4#$b#I don't wanna dampen that fire she's building up.$4",
 			},
 		},
 
