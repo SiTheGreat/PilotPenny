@@ -40,6 +40,12 @@
 		},
 
 		"{{ModId}}_E8/e {{ModId}}_E7/n {{ModId}}_M3/A PilotPenny7/f Penny 2000": "continue/26 25/farmer 15 31 0 Pam 26 24 0/addQuest {{ModId}}_Q2/skippable/fade/pause 300/emote farmer 16/pause 200/speak Pam \"Hey, glad I caught you.#$b#Listen, I thought about what you said.$2#$b#Penny's real excited about this balloon she's building, and, well...$4#$b#The sky might be the limit, but I sure as hell won't be.$1#$b#I saved up some of my drink money.#$b#Get her some more cloth so she can build a bigger balloon, and fly even higher, wouldja?\"/pause 200/emote farmer 32/end/fade",
+
+		"{{ModId}}_H1/e {{ModId}}_E8/n {{ModId}}_M4/A PilotPenny8/f Penny 2000": "none/-1000 -1000/farmer -100 -100 2/mail {{ModId}}_M5/AddConversationTopic PilotPenny9 12/end",
+
+		"{{ModId}}_H2/e {{ModId}}_H1/n {{ModId}}_M5/A PilotPenny9/f Penny 2000": "none/-1000 -1000/farmer -100 -100 2/mail {{ModId}}_M6/AddConversationTopic PilotPenny10 5/end",
+
+		"{{ModId}}_H3/e {{ModId}}_H2/n {{ModId}}_M6/A PilotPenny10/f Penny 2000": "none/-1000 -1000/farmer -100 -100 2/mail {{ModId}}_M7/end",
 	},
 
 	{
@@ -66,6 +72,9 @@
 		"Target": "Data/mail",
 		"Entries": {
 			"{{ModId}}_M2": "Hi @, I think I'll be able to build my own balloon based on some books I found and some tips Marcello gave me. It'll be a lot cheaper than buying one, at least! I can get most of the materials, but I need a lot of cloth. Can you help me? I promise to pay you back!  ^   -Penny%action AddQuest {{ModId}}_Q1%%[#]Hot Air Balloon Materials",
+			"{{ModId}}_M5": "Hi @! I thought I'd update you on how my balloon pilot license is going. I got medically approved to fly by Harvey; he had a lot of questions about flying and balloons in general. He doesn't seem very interested in going up himself though. I'm currently studying for my written test. Marcello's approved my balloon design, so once I pass the test I'm going to start building it while I practice flying with him. Emily's been giving me tips about sewing and handling all the cloth I got from you.  ^   -Penny[#]Pilot Medical Certification",
+			"{{ModId}}_M6": "Hi @! I passed my written test, and my balloon is almost done! I'm having my (hopefully) final check ride with Marcello soon. After that, I'll be able to start flying on my own, and even taking passengers! Maybe after that we can go for a ride.  ^   -Penny[#]Check Ride",
+			"{{ModId}}_M7": "I passed my check ride! 'With flying colors' is how Marcello put it. We also tested out my new balloon. It handles wonderfully! Stop by later, and I'll take you up!  ^   -Penny[#]Ready To Fly",
 		},
 	},
 
@@ -78,11 +87,6 @@
 		},
 	},
 
-	
-
-	// Emily CT about Penny asking for wesing tips and to borrow her sewing machine
-
-	// Mails on the progress of Penny getting pilot certified under Marcello. FAA med cert w Harvey - he was very cruous abt the balloons and asked lots of questions. Possibly a cert book if applicable
 
 	// Cert is done! Mail inviting you to fly
 
@@ -90,15 +94,15 @@
 
 	// CTs - Pam, Maru, Elliott, the kids, their parental figures, Leah, Haley, Harvey, Lewis
 
-	// Bonus event - Pam and Penny go ballooning
+	// Bonus event - Pam and Penny go ballooning - add to CT list instead?
 
-	// Bonus event - Penny hangs out with Linus talking about books
+	// Bonus event - Penny hangs out with Linus talking about books - ditto?
 
 	// Bonus marriage event - balloon date like Harvey's
 
-	// CT - 'i hope I can bring the children up here one day, when they're old enough to act safely
-
 	// Wonder if I can add a repeatable event with random panos each time interacting w balloon...
+
+	// Continue hidden events just for CTs?
 
 	]
 }
