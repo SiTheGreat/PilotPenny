@@ -12,8 +12,8 @@
   <property name="Warp" value=""/>
   <property name="Winter_Objects" value=""/>
  </properties>
- <tileset firstgid="1" name="evening" tilewidth="16" tileheight="16" tilecount="1925" columns="77">
-  <image source="evening.png" width="1232" height="400"/>
+ <tileset firstgid="1" name="panorama" tilewidth="16" tileheight="16" tilecount="1925" columns="77">
+  <image source="panorama.png" width="1232" height="400"/>
  </tileset>
  <layer id="1" name="Back" width="77" height="25">
   <data encoding="csv">
