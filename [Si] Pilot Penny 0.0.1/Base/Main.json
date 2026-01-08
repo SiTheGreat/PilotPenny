@@ -2,34 +2,100 @@
 
 	"Changes": [
 
-		// Events //////////////////////////////////////////////////////////
-
 		// Events
 		{
 			"Action": "Include",
 			"FromFile": "Base/Events.json",
     	},
 
-		// Other NPC Dialogue
-		// {
-		// 	"Action": "Include",
-		// 	"FromFile": "Assets/Base/Si_SF_NPCDial.json",
-		// },
+		// Dialogue
+		{
+			"Action": "Include",
+			"FromFile": "Base/Dialogue.json",
+		},
 
-		// Penny Dialogue
-		// {
-		// 	"Action": "Include",
-		// 	"FromFile": "Assets/Base/Si_SF_SebDial.json",
-		// },
+		// Schedule
+		{
+			"Action": "Include",
+			"FromFile": "Base/Schedule.json",
+		},
 
-		// Locations //////////////////////////////////////////////////////////
+		// Temp NPC
+		{
+			"Action": "Include",
+			"FromFile": "Base/TempNPC.json",
+		},
+		
 
+		// Balloon Map Patch
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"FromFile": "Base/PennyBalloonPatch.tmx",
+			"ToArea": { "X": 102, "Y": 12, "Width": 7, "Height": 12 },
+			"PatchMode": "Overlay",
+			"When": {
+					"HasFlag:hostPlayer |contains={{ModId}}_M7": true,
+				},
+		},
+
+		// Map Strings
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Mountain",
+			"MapTiles": [
+				{
+					"Position": { "X": 104, "Y": 22 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "Message {{ModId}}_BalloonMapString"
+					}
+				},
+				{
+					"Position": { "X": 105, "Y": 22 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "Message {{ModId}}_BalloonMapString"
+					}
+				},
+				{
+					"Position": { "X": 106, "Y": 22 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "Message {{ModId}}_BalloonMapString"
+					}
+				},
+				{
+					"Position": { "X": 104, "Y": 23 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "Message {{ModId}}_BalloonMapString"
+					}
+				},
+				{
+					"Position": { "X": 105, "Y": 23 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "Message {{ModId}}_BalloonMapString"
+					}
+				},
+				{
+					"Position": { "X": 106, "Y": 23 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "Message {{ModId}}_BalloonMapString"
+					}
+				},
+			],
+		},
+
+
+		// Event Map
 		{
 			"Action": "Load",
 			"Target": "Maps/{{ModId}}_Map1",
-			"FromFile": "BalloonSky.tmx",
+			"FromFile": "Base/BalloonSky.tmx",
 		},
-			
 		{
 			"Action": "EditData",
 			"Target": "Data/Locations",
@@ -46,10 +112,6 @@
 				}
 			}
 		},
-
-		// Balloon Map Patch
-
-		// Map Strings (no flights at night or in rain)
 
 		// End //////////////////////////////////////////////////////////
 

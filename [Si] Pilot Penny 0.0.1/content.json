@@ -4,32 +4,20 @@
 
 	// Config //////////////////////////////////////////////////////////
 
-	// "ConfigSchema":{
+	"ConfigSchema":{
 
-	// 	"SebSched": {
-	// 		"AllowValues": "true, false",
-	// 		"Default": "true",
-	// 		"Description": "When disabled, Sebastian will not visit the frog habitats once a month."
-	// 	},
+		"PennyBalloonSched": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "When disabled, Penny will not stop by her balloon once a week."
+		},
 
-	// 	"SebRainSched": {
-	// 		"AllowValues": "true, false",
-	// 		"Default": "true",
-	// 		"Description": "When disabled, Sebastian will not have a 50% chance of visiting the frog habitats on rainy days."
-	// 	},
-
-	// 	"DialoguePatches": {
-	// 		"AllowValues": "true, false",
-	// 		"Default": "true",
-	// 		"Description": "When disabled, dialogue (including marriage dialogue) added by this mod won't be applied. Does not include conversation topics."
-	// 	},
-
-	// 	"CrossoverContent": {
-	// 		"AllowValues": "true, false",
-	// 		"Default": "true",
-	// 		"Description": "When disabled, crossover content will not occur. Does not include compatibility patches."
-	// 	},
-	// },
+		"PennyBooksellerSched": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "When disabled, Penny will not visit the Bookseller when he's in town on non-school days."
+		},
+	},
 
 	"Changes": [
 
@@ -38,9 +26,9 @@
 		{
 			"Action": "Include",
 			"FromFile": "Base/Main.json",
-			"When": {
-				"Hearts:Penny": "8, 9, 10, 11, 12, 13, 14",
-			}
+			// "When": {
+			// 	"Hearts:Penny": "8, 9, 10, 11, 12, 13, 14",
+			// }
 		},
 
 		// Compatibility Patches //////////////////////////////////////////////////////////

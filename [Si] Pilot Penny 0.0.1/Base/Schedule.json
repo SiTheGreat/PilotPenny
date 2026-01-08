@@ -1,0 +1,45 @@
+{
+
+	"Changes": [
+
+		// School days: Tue Wed Fri
+		// Other: Mon Sat
+		// Use Thursday
+		// Compat notes:
+
+		{
+			"Action": "EditData",
+			"Target": "Characters/schedules/Penny",
+			"Priority": "Late",
+			"Entries": {
+				"Thu": "700 Town 35 89 2 penny_read/1110 Town 105 24 0/a1620 Town 44 77 2 penny_sit_down/1840 Trailer 4 9 1 penny_sleep",
+				"marriage_Thu": "700 Town 35 89 2 penny_read/1110 Town 105 24 0/a1620 Town 44 77 2 penny_sit_down \"Strings\\schedules\\Penny:marriage_Mon.002\"/1810 bed",
+			},
+			"When": {
+				"HasSeenEvent:hostPlayer |contains={{ModId}}_E9": true,
+				"PennyBalloonSched": true
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Characters/schedules/Penny",
+			"Priority": "Late",
+			"Entries": {
+				"spring": "700 Town 35 89 2 penny_read/1110 Town 110 27 3/a1620 Town 44 77 2 penny_sit_down/1840 Trailer 4 9 1 penny_sleep",
+				"marriage_Mon": "700 Town 35 89 2 penny_read/1110 Town 110 27 3/a1620 Town 44 77 2 penny_sit_down \"Strings\\schedules\\Penny:marriage_Mon.002\"/1810 bed",
+				"marriage_Thu": "GOTO marriage_Mon",
+				"marriage_Sat": "GOTO marriage_Mon",
+				"marriage_Sun": "GOTO marriage_Mon",
+			},
+			"When": {
+				"spacechase0.SpaceCore/BooksellerInTown": true,
+				"DayOfWeek": "Monday, Thursday, Saturday, Sunday",
+				"HasSeenEvent:hostPlayer |contains={{ModId}}_E1": true,
+				"PennyBooksellerSched": true
+			}
+		},
+
+	]
+
+}

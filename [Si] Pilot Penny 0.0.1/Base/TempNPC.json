@@ -10,11 +10,11 @@
 		"FromFile": "Base/TempNPC.png",
 	},
 
-	// {
-	// 	"Action": "Load",
-	// 	"Target": "Portraits/{{ModId}}_TempNPC",
-	// 	"FromFile": "Characters/TempNPC/TempNPCPortrait.png",
-	// },
+	{
+		"Action": "Load",
+		"Target": "Portraits/{{ModId}}_TempNPC",
+		"FromFile": "Base/TempNPCPort.png",
+	},
 
 	// Disposition ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

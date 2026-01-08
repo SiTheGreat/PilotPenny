@@ -31,6 +31,43 @@
 
 		// Emily CT about Penny asking for wesing tips and to borrow her sewing machine
 
+		// Map Strings (no flights at night or in rain)
+
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"{{ModId}}_BalloonMapString": "Penny can't fly her balloon at night for safety reasons.",
+			},
+			"Update": "OnTimeChange",
+			"When": {
+				"Time": "{{Range: 1700, 2600}}",
+				"Weather": "Sun, Wind"
+			},
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"{{ModId}}_BalloonMapString": "Penny can't fly her balloon in the rain for safety reasons.",
+			},
+			"When": {
+				"Weather": "Rain, Storm, GreenRain"
+			},
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"{{ModId}}_BalloonMapString": "Penny can't fly her balloon when it's snowing for safety reasons.",
+			},
+			"When": {
+				"Weather": "Snow"
+			},
+		},
+
 	]
 
 
