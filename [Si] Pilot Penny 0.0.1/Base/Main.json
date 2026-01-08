@@ -42,7 +42,10 @@
 		// Map Strings
 		{
 			"Action": "EditMap",
-			"Target": "Maps/Mountain",
+			"Target": "Maps/Town",
+			"When": {
+					"HasFlag:hostPlayer |contains={{ModId}}_M7": true,
+				},
 			"MapTiles": [
 				{
 					"Position": { "X": 104, "Y": 22 },
@@ -106,8 +109,8 @@
 						"MapPath": "Maps/{{ModId}}_Map1" 
 					},
 					"DefaultArrivalTile": {
-						"X": 15,
-						"Y": 6
+						"X": 17,
+						"Y": 15
 					}
 				}
 			}

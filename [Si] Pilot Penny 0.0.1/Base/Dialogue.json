@@ -31,7 +31,15 @@
 			},
 		},
 
-		// Emily CT about Penny asking for wesing tips and to borrow her sewing machine
+		// Emily
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries": {
+				"PilotPenny7": "Penny's been asking me a lot of questions about sewing.#$b#So I offered to let her borrow my sewing machine.#$b#She won't stop thanking me!$1",
+				"PilotPenny10": "I've been helping Penny sew the envelope for her hot air balloon!$1#$b#The cloth you gave her is very high quality.#$e#She told me she'll let me ride it once it's built.#$b#I can't wait!$1",
+			},
+		},
 
 		// Map Strings (no flights at night or in rain)
 
