@@ -17,6 +17,12 @@
 			"Default": "true",
 			"Description": "When disabled, Penny will not visit the Bookseller when he's in town on non-school days."
 		},
+
+		"CrossoverContent": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "When disabled, crossover content with other mods will not occur. See mod page for list of crossover content."
+		},
 	},
 
 	"Changes": [
@@ -34,20 +40,18 @@
 		// Compatibility Patches //////////////////////////////////////////////////////////
 
 		// {
-		// 	"LogName": "Si SF Compat Patches",
 		// 	"Action": "Include",
-		// 	"FromFile": "Assets/Compats/Si_SF_Compats.json",
+		// 	"FromFile": "Compats/Compats.json",
 		// 	"When": {
-		// 		"HasSeenEvent:hostPlayer |contains=29": true,
+		// 		"Hearts:Penny": "8, 9, 10, 11, 12, 13, 14",
 		// 	}
 		// },
 
 		// Crossovers //////////////////////////////////////////////////////////
 
 		// {
-		// 	"LogName": "Si SF Crossover Content",
 		// 	"Action": "Include",
-		// 	"FromFile": "Assets/Crossovers/Si_SF_Crossovers.json",
+		// 	"FromFile": "Crossovers/Crossovers.json",
 		// 	"When": {
 		// 		"CrossoverContent": true
 		// 	}

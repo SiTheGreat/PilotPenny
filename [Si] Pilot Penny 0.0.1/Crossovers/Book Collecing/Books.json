@@ -4,26 +4,13 @@
 	
 	// Events //////////////////////////////////////////////////////////
 
-	// General book on hot air balloons after {{ModId}}_E3
-	// Book on bouyancy (with force diagram) after {{ModId}}_E5 'I saw you listening in on my density lesson. My balloon ride got me so excited I decided to start teaching the kids about bouyancy early! Here's a book about it in case you're interested
-	// Book on ballooncraft after {{ModId}}_E7
-	// Book on balloon certification process after {{ModId}}_M5 'I thought you might be interested in what the cert process looks like, so here you go!
+	// General book on hot air balloons after {{ModId}}_E3 - 'Introduction To Hot Air Balloons'; travel category
+	// Book on bouyancy (with force diagram) after {{ModId}}_E5 'I saw you listening in on my density lesson. My balloon ride got me so excited I decided to start teaching the kids about bouyancy early! Here's a book about it in case you're interested - 'The Big Book of Bouyancy'
+	// Book on ballooncraft after {{ModId}}_E7 - 'Ballooncraft For Hobbyists'
+	// Book on balloon certification process after {{ModId}}_M5 'I thought you might be interested in what the cert process looks like, so here you go! - 'Balloon Pilot Certification Guide'; 'To summarize the process, here are the steps:'
+	// An additonal book available for sale from the bookseller: Around The World In 20 Days based on the Breitling Orbiter; details places it's gone
 
-	// Gift Tastes //////////////////////////////////////////////////////////
-
-	// {
-	// 	"Action": "EditData",
-	// 	"Target": "Data/NPCGiftTastes",
-	// 	"TextOperations": [
-	// 		// Sebastian
-	// 		{
-	// 			"Operation": "Append",
-	// 			"Target": ["Fields", "Sebastian", 1],
-	// 			"Value": "Si.BC_SFSGuideBook",
-	// 			"Delimiter": " "
-	// 		},
-	// 	]
-	// },
+	// Mail //////////////////////////////////////////////////////////
 
 	// Books //////////////////////////////////////////////////////////
 
