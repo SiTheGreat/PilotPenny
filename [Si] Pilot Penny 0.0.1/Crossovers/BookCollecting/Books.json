@@ -1,0 +1,205 @@
+{
+
+	"Changes": [
+	
+	// Events //////////////////////////////////////////////////////////
+
+	// General book on hot air balloons after {{ModId}}_E3 - 'Introduction To Hot Air Balloons'; travel category
+	// Book on bouyancy (with force diagram) after {{ModId}}_E5 'I saw you listening in on my density lesson. My balloon ride got me so excited I decided to start teaching the kids about bouyancy early! Here's a book about it in case you're interested - 'The Big Book of Bouyancy'
+	// Book on ballooncraft after {{ModId}}_E7 - 'Ballooncraft For Hobbyists'
+	// Book on balloon certification process after {{ModId}}_M5 'I thought you might be interested in what the cert process looks like, so here you go! - 'Balloon Pilot Certification Guide'; 'To summarize the process, here are the steps:'
+	// An additonal book available for sale from the bookseller: Around The World In 20 Days based on the Breitling Orbiter; details places it's gone
+
+	// Mail //////////////////////////////////////////////////////////
+
+	// Books //////////////////////////////////////////////////////////
+
+	// Load book sprites
+	{
+		"Action": "Load",
+		"Target": "Mods/{{ModId}}/BalloonBooks",
+		"FromFile": "Crossovers/BookCollecting/Books.png"
+	},
+
+	// Create book objects
+	{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+
+				// BalloonIntro SNF book
+				"{{ModId}}_BalloonIntroBookNote": {
+					"Name": "{{ModId}}_BalloonIntroBookNote",
+					"DisplayName": "Your book title",
+					"Description": "Your book description",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 530,
+					"Texture": "Mods/{{ModId}}/BalloonBooks",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"bc_book",
+					],
+				},
+
+				// BalloonIntro giftable book
+				"{{ModId}}_BalloonIntroBook": {
+					"Name": "{{ModId}}_BalloonIntroBook",
+					"DisplayName": "Your book title",
+					"Description": "Your book description",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 530,
+					"Texture": "Mods/{{ModId}}/BalloonBooks",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"cool_book",
+						"bc_book",
+					],
+				},
+
+				// Bouyancy SNF book
+				"{{ModId}}_BouyancyBookNote": {
+					"Name": "{{ModId}}_BouyancyBookNote",
+					"DisplayName": "Your book title",
+					"Description": "Your book description",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 530,
+					"Texture": "Mods/{{ModId}}/BalloonBooks",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 1,
+					"ContextTags": [
+						"bc_book",
+					],
+				},
+
+				// Bouyancy giftable book
+				"{{ModId}}_BouyancyBook": {
+					"Name": "{{ModId}}_BouyancyBook",
+					"DisplayName": "Your book title",
+					"Description": "Your book description",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 530,
+					"Texture": "Mods/{{ModId}}/BalloonBooks",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 1,
+					"ContextTags": [
+						"cool_book",
+						"bc_book",
+					],
+				},
+
+				// BalloonCraft SNF book
+				"{{ModId}}_BalloonCraftBookNote": {
+					"Name": "{{ModId}}_BalloonCraftBookNote",
+					"DisplayName": "Your book title",
+					"Description": "Your book description",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 530,
+					"Texture": "Mods/{{ModId}}/BalloonBooks",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 2,
+					"ContextTags": [
+						"bc_book",
+					],
+				},
+
+				// BalloonCraft giftable book
+				"{{ModId}}_BalloonCraftBook": {
+					"Name": "{{ModId}}_BalloonCraftBook",
+					"DisplayName": "Your book title",
+					"Description": "Your book description",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 530,
+					"Texture": "Mods/{{ModId}}/BalloonBooks",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 2,
+					"ContextTags": [
+						"cool_book",
+						"bc_book",
+					],
+				},
+
+				// BalloonCert SNF book
+				"{{ModId}}_BalloonCertBookNote": {
+					"Name": "{{ModId}}_BalloonCertBookNote",
+					"DisplayName": "Your book title",
+					"Description": "Your book description",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 530,
+					"Texture": "Mods/{{ModId}}/BalloonBooks",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 3,
+					"ContextTags": [
+						"bc_book",
+					],
+				},
+
+				// BalloonCert giftable book
+				"{{ModId}}_BalloonCertBook": {
+					"Name": "{{ModId}}_BalloonCertBook",
+					"DisplayName": "Your book title",
+					"Description": "Your book description",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 530,
+					"Texture": "Mods/{{ModId}}/BalloonBooks",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 3,
+					"ContextTags": [
+						"cool_book",
+						"bc_book",
+					],
+				},
+
+				// BreitlingOrbiter SNF book
+				"{{ModId}}_BreitlingOrbiterBookNote": {
+					"Name": "{{ModId}}_BreitlingOrbiterBookNote",
+					"DisplayName": "Your book title",
+					"Description": "Your book description",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 530,
+					"Texture": "Mods/{{ModId}}/BalloonBooks",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 4,
+					"ContextTags": [
+						"sold_book",
+						"bc_book",
+					],
+				},
+
+				// BreitlingOrbiter giftable book
+				"{{ModId}}_BreitlingOrbiterBook": {
+					"Name": "{{ModId}}_BreitlingOrbiterBook",
+					"DisplayName": "Your book title",
+					"Description": "Your book description",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 530,
+					"Texture": "Mods/{{ModId}}/BalloonBooks",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 4,
+					"ContextTags": [
+						"cool_book",
+						"bc_book",
+					],
+				},
+
+			}
+		},
+
+
+	// End //////////////////////////////////////////////////////////
+
+	]
+
+
+}
