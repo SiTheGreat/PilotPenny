@@ -9,6 +9,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Penny",
 			"Entries": {
+				"Town_110_27": "Hi @!#$b#Are you checking for new books too?$1",
+				"Town_105_24": "Hello @!#$b#I'm just doing some maintenance on my balloon.#$b#We should go for a flight later!$1",
 				"PilotPenny1": "Can you imagine?$3#$b#Soaring high above the clouds, going wherever you want...#$b#Looking for new books to read and share!$1#$b#I wish I could do that...",
 				"PilotPenny2": "I can't stop thinking about that flight!$1#$b#It was like nothing I've ever read before.#$b#I've been trying to tell everyone about it, but it's so hard to put into words!$1",
 				"PilotPenny4": "I was worried that it would be too early to start introducing the children to the concept of bouyancy, but they're really catching on!$1#$b#I wish I could take them up for a balloon ride. Maybe when they're older...",

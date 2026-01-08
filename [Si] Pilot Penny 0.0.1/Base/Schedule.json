@@ -24,7 +24,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Characters/schedules/Penny",
-			"Priority": "Late",
+			"Priority": "Late+1",
 			"Entries": {
 				"spring": "700 Town 35 89 2 penny_read/1110 Town 110 27 3/a1620 Town 44 77 2 penny_sit_down/1840 Trailer 4 9 1 penny_sleep",
 				"marriage_Mon": "700 Town 35 89 2 penny_read/1110 Town 110 27 3/a1620 Town 44 77 2 penny_sit_down \"Strings\\schedules\\Penny:marriage_Mon.002\"/1810 bed",
