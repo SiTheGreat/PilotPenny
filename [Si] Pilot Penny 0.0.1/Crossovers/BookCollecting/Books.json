@@ -1,14 +1,6 @@
 {
 
 	"Changes": [
-	
-	// Events //////////////////////////////////////////////////////////
-
-	// General book on hot air balloons after {{ModId}}_E3 - 'Introduction To Hot Air Balloons'; travel category
-	// Book on bouyancy (with force diagram) after {{ModId}}_E5 'I saw you listening in on my density lesson. My balloon ride got me so excited I decided to start teaching the kids about bouyancy early! Here's a book about it in case you're interested - 'The Big Book of Bouyancy'
-	// Book on ballooncraft after {{ModId}}_M6 - 'Ballooncraft For Beginners'
-	// Book on balloon certification process after {{ModId}}_M5 'I thought you might be interested in what the cert process looks like, so here you go! - 'Balloon Pilot Certification Guide'; 'To summarize, here are the steps:'
-	// An additonal book available for sale from the bookseller: Around The World In 20 Days based on the Breitling Orbiter; details places it's gone
 
 	// Mail //////////////////////////////////////////////////////////
 
@@ -16,10 +8,10 @@
 		"Action": "EditData",
 		"Target": "Data/mail",
 		"Entries": {
-			"{{ModId}}_BC_M1": "Hi @, !  ^   -Penny%action Additem (O){{ModId}}_BalloonIntroBookNote%% %action AddMail Current {{ModId}}_HasBalloonIntroBook%%[#]Introducing Hot Air Balloons",
-			"{{ModId}}_BC_M2": "Hi @, 'I saw you listening in on my density lesson. My balloon ride got me so excited I decided to start teaching the kids about bouyancy early! Here's a book about it in case you're interested.  ^   -Penny%action Additem (O){{ModId}}_BouyancyBookNote%% %action AddMail Current {{ModId}}_HasBouyancyBook%%[#]A Book About Bouyancy",
-			"{{ModId}}_BC_M3": "Hi @, here's a copy of one of the balloon building books I've been referencing to design my hot air balloon. I thought you might be interested!  ^   -Penny%action Additem (O){{ModId}}_BalloonCraftBookNote%% %action AddMail Current {{ModId}}_HasBalloonCraftBook%%[#]Building Balloons",
-			"{{ModId}}_BC_M4": "Hi @! I thought you might be interested in what the balloon pilot certification process looks like, so here you go!  ^   -Penny%action Additem (O){{ModId}}_BalloonCertBookNote%% %action AddMail Current {{ModId}}_HasBalloonCertBook%%[#]How To Train Your Balloon Pilot",
+			"{{ModId}}_BC_M1": "{{i18n:Si.PilotPenny.Books.MailContent1}}%action Additem (O){{ModId}}_BalloonIntroBookNote%% %action AddMail Current {{ModId}}_HasBalloonIntroBook%%[#]{{i18n:Si.PilotPenny.Books.MailName1}}",
+			"{{ModId}}_BC_M2": "{{i18n:Si.PilotPenny.Books.MailContent2}}%action Additem (O){{ModId}}_BouyancyBookNote%% %action AddMail Current {{ModId}}_HasBouyancyBook%%[#]{{i18n:Si.PilotPenny.Books.MailName2}}",
+			"{{ModId}}_BC_M3": "{{i18n:Si.PilotPenny.Books.MailContent3}}%action Additem (O){{ModId}}_BalloonCraftBookNote%% %action AddMail Current {{ModId}}_HasBalloonCraftBook%%[#]{{i18n:Si.PilotPenny.Books.MailName3}}",
+			"{{ModId}}_BC_M4": "{{i18n:Si.PilotPenny.Books.MailContent4}}%action Additem (O){{ModId}}_BalloonCertBookNote%% %action AddMail Current {{ModId}}_HasBalloonCertBook%%[#]{{i18n:Si.PilotPenny.Books.MailName4}}",
 		},
 	},
 

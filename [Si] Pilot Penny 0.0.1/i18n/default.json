@@ -1,5 +1,13 @@
 {
 	// Books
+	"Si.PilotPenny.Books.MailName1": "Introducing Hot Air Balloons",
+	"Si.PilotPenny.Books.MailContent1": "Hi @! Thanks again for introducing me to Marcello. He's got so many interesting books! he gave me this one on hot air balloons. I've finished it, so I thought I'd send it over to you. Hope  you enjoy it!  ^   -Penny",
+	"Si.PilotPenny.Books.MailName2": "A Book About Bouyancy",
+	"Si.PilotPenny.Books.MailContent2": "Hi @, I saw you listening in on my density lesson. My balloon ride got me so excited I decided to start teaching the kids about bouyancy early! Here's a book about it in case you're interested.  ^   -Penny",
+	"Si.PilotPenny.Books.MailName3": "Building Balloons",
+	"Si.PilotPenny.Books.MailContent3": "Hi @, here's a copy of one of the balloon building books I've been referencing to design my hot air balloon. I thought you might be interested!  ^   -Penny",
+	"Si.PilotPenny.Books.MailName4": "How To Train Your Balloon Pilot",
+	"Si.PilotPenny.Books.MailContent4": "Hi @! I thought you might be interested in what the balloon pilot certification process looks like, so here you go!  ^   -Penny",
 	"Si.PilotPenny.BalloonIntro.BookName": "Introduction To Hot Air Balloons",
 	"Si.PilotPenny.BalloonIntro.BookDesc": "",
 	"Si.PilotPenny.BalloonIntro.BookContent": "",
@@ -11,7 +19,7 @@
 	"Si.PilotPenny.BalloonCraft.BookContent": "",
 	"Si.PilotPenny.BalloonCert.BookName": "Balloon Pilot Certification Guide",
 	"Si.PilotPenny.BalloonCert.BookDesc": "The process of becoming licensed to fly hot air balloons.",
-	"Si.PilotPenny.BalloonCert.BookContent": "",
+	"Si.PilotPenny.BalloonCert.BookContent": "To summarize, here are the steps:",
 	"Si.PilotPenny.BreitlingOrbiter.BookName": "Around The World In 20 Days",
 	"Si.PilotPenny.BreitlingOrbiter.BookDesc": "The inspiring journey of the longest trip ever flown by a hot air balloon!",
 	"Si.PilotPenny.BreitlingOrbiter.BookContent": "",

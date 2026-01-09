@@ -12,8 +12,8 @@
 			"Target": "Characters/schedules/Penny",
 			"Priority": "Late",
 			"Entries": {
-				"Thu": "700 Town 35 89 2 penny_read/1110 Town 105 24 0/a1620 Town 44 77 2 penny_sit_down/1840 Trailer 4 9 1 penny_sleep",
-				"marriage_Thu": "700 Town 35 89 2 penny_read/1110 Town 105 24 0/a1620 Town 44 77 2 penny_sit_down \"Strings\\schedules\\Penny:marriage_Mon.002\"/1810 bed",
+				"Thu": "700 Town 35 89 2 penny_read/1110 Town 106 24 0/a1620 Town 44 77 2 penny_sit_down/1840 Trailer 4 9 1 penny_sleep",
+				"marriage_Thu": "700 Town 35 89 2 penny_read/1110 Town 106 24 0/a1620 Town 44 77 2 penny_sit_down \"Strings\\schedules\\Penny:marriage_Mon.002\"/1810 bed",
 			},
 			"When": {
 				"HasSeenEvent:hostPlayer |contains={{ModId}}_E9": true,
