@@ -6,8 +6,8 @@
 
 	// General book on hot air balloons after {{ModId}}_E3 - 'Introduction To Hot Air Balloons'; travel category
 	// Book on bouyancy (with force diagram) after {{ModId}}_E5 'I saw you listening in on my density lesson. My balloon ride got me so excited I decided to start teaching the kids about bouyancy early! Here's a book about it in case you're interested - 'The Big Book of Bouyancy'
-	// Book on ballooncraft after {{ModId}}_E7 - 'Ballooncraft For Hobbyists'
-	// Book on balloon certification process after {{ModId}}_M5 'I thought you might be interested in what the cert process looks like, so here you go! - 'Balloon Pilot Certification Guide'; 'To summarize the process, here are the steps:'
+	// Book on ballooncraft after {{ModId}}_E7 - 'Ballooncraft For Beginners'
+	// Book on balloon certification process after {{ModId}}_M5 'I thought you might be interested in what the cert process looks like, so here you go! - 'Balloon Pilot Certification Guide'; 'To summarize, here are the steps:'
 	// An additonal book available for sale from the bookseller: Around The World In 20 Days based on the Breitling Orbiter; details places it's gone
 
 	// Mail //////////////////////////////////////////////////////////
@@ -29,8 +29,8 @@
 			// BalloonIntro SNF book
 			"{{ModId}}_BalloonIntroBookNote": {
 				"Name": "{{ModId}}_BalloonIntroBookNote",
-				"DisplayName": "Your book title",
-				"Description": "Your book description",
+				"DisplayName": "{{i18n:Si.PilotPenny.BalloonIntro.BookName}}",
+				"Description": "Si.PilotPenny.BalloonIntro.BookDesc",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 530,
@@ -45,8 +45,8 @@
 			// BalloonIntro giftable book
 			"{{ModId}}_BalloonIntroBook": {
 				"Name": "{{ModId}}_BalloonIntroBook",
-				"DisplayName": "Your book title",
-				"Description": "Your book description",
+				"DisplayName": "{{i18n:Si.PilotPenny.BalloonIntro.BookName}}",
+				"Description": "Si.PilotPenny.BalloonIntro.BookDesc",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 530,
@@ -54,7 +54,7 @@
 				"ExcludeFromShippingCollection": true,
 				"SpriteIndex": 0,
 				"ContextTags": [
-					"cool_book",
+					"travel_book",
 					"bc_book",
 				],
 			},
@@ -62,8 +62,8 @@
 			// Bouyancy SNF book
 			"{{ModId}}_BouyancyBookNote": {
 				"Name": "{{ModId}}_BouyancyBookNote",
-				"DisplayName": "Your book title",
-				"Description": "Your book description",
+				"DisplayName": "{{i18n:Si.PilotPenny.Bouyancy.BookName}}",
+				"Description": "Si.PilotPenny.Bouyancy.BookDesc",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 530,
@@ -78,8 +78,8 @@
 			// Bouyancy giftable book
 			"{{ModId}}_BouyancyBook": {
 				"Name": "{{ModId}}_BouyancyBook",
-				"DisplayName": "Your book title",
-				"Description": "Your book description",
+				"DisplayName": "{{i18n:Si.PilotPenny.Bouyancy.BookName}}",
+				"Description": "Si.PilotPenny.Bouyancy.BookDesc",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 530,
@@ -87,7 +87,7 @@
 				"ExcludeFromShippingCollection": true,
 				"SpriteIndex": 1,
 				"ContextTags": [
-					"cool_book",
+					"science_book",
 					"bc_book",
 				],
 			},
@@ -95,8 +95,8 @@
 			// BalloonCraft SNF book
 			"{{ModId}}_BalloonCraftBookNote": {
 				"Name": "{{ModId}}_BalloonCraftBookNote",
-				"DisplayName": "Your book title",
-				"Description": "Your book description",
+				"DisplayName": "{{i18n:Si.PilotPenny.BalloonCraft.BookName}}",
+				"Description": "Si.PilotPenny.BalloonCraft.BookDesc",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 530,
@@ -111,8 +111,8 @@
 			// BalloonCraft giftable book
 			"{{ModId}}_BalloonCraftBook": {
 				"Name": "{{ModId}}_BalloonCraftBook",
-				"DisplayName": "Your book title",
-				"Description": "Your book description",
+				"DisplayName": "{{i18n:Si.PilotPenny.BalloonCraft.BookName}}",
+				"Description": "Si.PilotPenny.BalloonCraft.BookDesc",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 530,
@@ -120,7 +120,7 @@
 				"ExcludeFromShippingCollection": true,
 				"SpriteIndex": 2,
 				"ContextTags": [
-					"cool_book",
+					"craft_book",
 					"bc_book",
 				],
 			},
@@ -128,8 +128,8 @@
 			// BalloonCert SNF book
 			"{{ModId}}_BalloonCertBookNote": {
 				"Name": "{{ModId}}_BalloonCertBookNote",
-				"DisplayName": "Your book title",
-				"Description": "Your book description",
+				"DisplayName": "{{i18n:Si.PilotPenny.BalloonCert.BookName}}",
+				"Description": "Si.PilotPenny.BalloonCert.BookDesc",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 530,
@@ -144,8 +144,8 @@
 			// BalloonCert giftable book
 			"{{ModId}}_BalloonCertBook": {
 				"Name": "{{ModId}}_BalloonCertBook",
-				"DisplayName": "Your book title",
-				"Description": "Your book description",
+				"DisplayName": "{{i18n:Si.PilotPenny.BalloonCert.BookName}}",
+				"Description": "Si.PilotPenny.BalloonCert.BookDesc",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 530,
@@ -153,7 +153,7 @@
 				"ExcludeFromShippingCollection": true,
 				"SpriteIndex": 3,
 				"ContextTags": [
-					"cool_book",
+					"guide_book",
 					"bc_book",
 				],
 			},
@@ -161,8 +161,8 @@
 			// BreitlingOrbiter SNF book
 			"{{ModId}}_BreitlingOrbiterBookNote": {
 				"Name": "{{ModId}}_BreitlingOrbiterBookNote",
-				"DisplayName": "Your book title",
-				"Description": "Your book description",
+				"DisplayName": "{{i18n:Si.PilotPenny.BreitlingOrbiter.BookName}}",
+				"Description": "Si.PilotPenny.BreitlingOrbiter.BookDesc",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 530,
@@ -178,8 +178,8 @@
 			// BreitlingOrbiter giftable book
 			"{{ModId}}_BreitlingOrbiterBook": {
 				"Name": "{{ModId}}_BreitlingOrbiterBook",
-				"DisplayName": "Your book title",
-				"Description": "Your book description",
+				"DisplayName": "{{i18n:Si.PilotPenny.BreitlingOrbiter.BookName}}",
+				"Description": "Si.PilotPenny.BreitlingOrbiter.BookDesc",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 530,
@@ -187,7 +187,9 @@
 				"ExcludeFromShippingCollection": true,
 				"SpriteIndex": 4,
 				"ContextTags": [
-					"cool_book",
+					"travel_book",
+					"history_book",
+					"adventure_book",
 					"bc_book",
 				],
 			},
@@ -204,8 +206,8 @@
 
 			// BalloonIntro book
 			"{{ModId}}_BalloonIntroBookSNF": {
-				"Title": "Your book title",
-				"Contents": "Your book excerpt that appears when reading the secret note book",
+				"Title": "{{i18n:Si.PilotPenny.BalloonIntro.BookName}}",
+				"Contents": "Si.PilotPenny.BalloonIntro.BookContent",
 				"ObjectId": "(O){{ModId}}_BalloonIntroBookNote",
 				"Location": "null",
 				"NoteTexture": "Mods/Si.BC/blankbook",
@@ -219,8 +221,8 @@
 
 			// Bouyancy book
 			"{{ModId}}_BouyancyBookSNF": {
-				"Title": "Your book title",
-				"Contents": "Your book excerpt that appears when reading the secret note book",
+				"Title": "{{i18n:Si.PilotPenny.Bouyancy.BookName}}",
+				"Contents": "Si.PilotPenny.Bouyancy.BookContent",
 				"ObjectId": "(O){{ModId}}_BouyancyBookNote",
 				"Location": "null",
 				"NoteTexture": "Mods/Si.BC/blankbook",
@@ -234,8 +236,8 @@
 
 			// BalloonCraft book
 			"{{ModId}}_BalloonCraftBookSNF": {
-				"Title": "Your book title",
-				"Contents": "Your book excerpt that appears when reading the secret note book",
+				"Title": "{{i18n:Si.PilotPenny.BalloonCraft.BookName}}",
+				"Contents": "Si.PilotPenny.BalloonCraft.BookContent",
 				"ObjectId": "(O){{ModId}}_BalloonCraftBookNote",
 				"Location": "null",
 				"NoteTexture": "Mods/Si.BC/blankbook",
@@ -249,8 +251,8 @@
 
 			// BalloonCert book
 			"{{ModId}}_BalloonCertBookSNF": {
-				"Title": "Your book title",
-				"Contents": "Your book excerpt that appears when reading the secret note book",
+				"Title": "{{i18n:Si.PilotPenny.BalloonCert.BookName}}",
+				"Contents": "Si.PilotPenny.BalloonCert.BookContent",
 				"ObjectId": "(O){{ModId}}_BalloonCertBookNote",
 				"Location": "null",
 				"NoteTexture": "Mods/Si.BC/blankbook",
@@ -264,8 +266,8 @@
 
 			// BreitlingOrbiter book
 			"{{ModId}}_BreitlingOrbiterBookSNF": {
-				"Title": "Your book title",
-				"Contents": "Your book excerpt that appears when reading the secret note book",
+				"Title": "{{i18n:Si.PilotPenny.BreitlingOrbiter.BookName}}",
+				"Contents": "Si.PilotPenny.BreitlingOrbiter.BookContent",
 				"ObjectId": "(O){{ModId}}_BreitlingOrbiterBookNote",
 				"Location": "null",
 				"NoteTexture": "Mods/Si.BC/blankbook",

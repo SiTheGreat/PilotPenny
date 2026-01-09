@@ -1,0 +1,18 @@
+{
+	// Books
+	"Si.PilotPenny.BalloonIntro.BookName": "Introduction To Hot Air Balloons",
+	"Si.PilotPenny.BalloonIntro.BookDesc": "",
+	"Si.PilotPenny.BalloonIntro.BookContent": "",
+	"Si.PilotPenny.Bouyancy.BookName": "The Big Book of Bouyancy",
+	"Si.PilotPenny.Bouyancy.BookDesc": "",
+	"Si.PilotPenny.Bouyancy.BookContent": "",
+	"Si.PilotPenny.BalloonCraft.BookName": "Ballooncraft For Beginners",
+	"Si.PilotPenny.BalloonCraft.BookDesc": "Materials, techniques, patterns, and more!",
+	"Si.PilotPenny.BalloonCraft.BookContent": "",
+	"Si.PilotPenny.BalloonCert.BookName": "Balloon Pilot Certification Guide",
+	"Si.PilotPenny.BalloonCert.BookDesc": "The process of becoming licensed to fly hot air balloons.",
+	"Si.PilotPenny.BalloonCert.BookContent": "",
+	"Si.PilotPenny.BreitlingOrbiter.BookName": "Around The World In 20 Days",
+	"Si.PilotPenny.BreitlingOrbiter.BookDesc": "The inspiring journey of the longest trip ever flown by a hot air balloon!",
+	"Si.PilotPenny.BreitlingOrbiter.BookContent": "",
+}
