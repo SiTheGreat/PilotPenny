@@ -14,6 +14,9 @@
 	"Si.PilotPenny.Penny.BalloonCert": "",
 	"Si.PilotPenny.Penny.BreitlingOrbiter": "",
 	// Map Strings
+	"Si.PilotPenny.BalloonStrings.Time": "Penny can't fly her balloon at night for safety reasons.",
+	"Si.PilotPenny.BalloonStrings.Rain": "Penny can't fly her balloon in the rain for safety reasons.",
+	"Si.PilotPenny.BalloonStrings.Snow": "Penny can't fly her balloon when it's snowing for safety reasons.",
 	// Events
 	// Books
 	"Si.PilotPenny.Books.MailName1": "Introducing Hot Air Balloons",

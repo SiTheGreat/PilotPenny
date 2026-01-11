@@ -52,7 +52,7 @@
 			"Action": "EditData",
 			"Target": "Strings/StringsFromMaps",
 			"Entries": {
-				"{{ModId}}_BalloonMapString": "Penny can't fly her balloon at night for safety reasons.",
+				"{{ModId}}_BalloonMapString": "{{i18n:Si.PilotPenny.BalloonStrings.Time}}",
 			},
 			"Update": "OnTimeChange",
 			"When": {
@@ -65,7 +65,7 @@
 			"Action": "EditData",
 			"Target": "Strings/StringsFromMaps",
 			"Entries": {
-				"{{ModId}}_BalloonMapString": "Penny can't fly her balloon in the rain for safety reasons.",
+				"{{ModId}}_BalloonMapString": "{{i18n:Si.PilotPenny.BalloonStrings.Rain}}",
 			},
 			"When": {
 				"Weather": "Rain, Storm, GreenRain"
@@ -76,7 +76,7 @@
 			"Action": "EditData",
 			"Target": "Strings/StringsFromMaps",
 			"Entries": {
-				"{{ModId}}_BalloonMapString": "Penny can't fly her balloon when it's snowing for safety reasons.",
+				"{{ModId}}_BalloonMapString": "{{i18n:Si.PilotPenny.BalloonStrings.Snow}}",
 			},
 			"When": {
 				"Weather": "Snow"
