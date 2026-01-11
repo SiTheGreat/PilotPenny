@@ -1,5 +1,6 @@
 {
-	// Dialogue
+	// Dialogue //////////////////////////////////////////////////////////
+	// Penny
 	"Si.PilotPenny.Penny.Town_110_27": "Hi @!#$b#Are you checking for new books too?$1",
 	"Si.PilotPenny.Penny.Town_106_24": "Hello @!#$b#I'm just doing some maintenance on my balloon.#$b#We should go for a flight later!$1",
 	"Si.PilotPenny.Penny.PilotPenny1": "Can you imagine?$3#$b#Soaring high above the clouds, going wherever you want...#$b#Looking for new books to read and share!$1#$b#I wish I could do that...",
@@ -13,12 +14,20 @@
 	"Si.PilotPenny.Penny.BalloonCraft": "",
 	"Si.PilotPenny.Penny.BalloonCert": "",
 	"Si.PilotPenny.Penny.BreitlingOrbiter": "",
+	// Pam
+	"Si.PilotPenny.Pam.PilotPenny3": "Listen, don't tell Penny what we talked about, kay?$4#$b#I don't wanna dampen that fire she's building up.$4",
+	"Si.PilotPenny.Pam.PilotPenny7": "Penny sure cares about that balloon she's building huh...$2",
+	"Si.PilotPenny.Pam.PilotPenny8": "Penny's gonna fly real high, you'll see.",
+	// Emily
+	"Si.PilotPenny.Emily.PilotPenny7": "Penny's been asking me a lot of questions about sewing.#$b#So I offered to let her borrow my sewing machine.#$b#She won't stop thanking me!$1",
+	"Si.PilotPenny.Emily.PilotPenny10": "I've been helping Penny sew the envelope for her hot air balloon!$1#$b#The cloth you gave her is very high quality.#$e#She told me she'll let me ride it once it's built.#$b#I can't wait!$1",
 	// Map Strings
 	"Si.PilotPenny.BalloonStrings.Time": "Penny can't fly her balloon at night for safety reasons.",
 	"Si.PilotPenny.BalloonStrings.Rain": "Penny can't fly her balloon in the rain for safety reasons.",
 	"Si.PilotPenny.BalloonStrings.Snow": "Penny can't fly her balloon when it's snowing for safety reasons.",
-	// Events
-	// Books
+	// Events //////////////////////////////////////////////////////////
+	// Books //////////////////////////////////////////////////////////
+	// Book Mails
 	"Si.PilotPenny.Books.MailName1": "Introducing Hot Air Balloons",
 	"Si.PilotPenny.Books.MailContent1": "Hi @! Thanks again for introducing me to Marcello. He's got so many interesting books! he gave me this one on hot air balloons. I've finished it, so I thought I'd send it over to you. Hope  you enjoy it!  ^   -Penny",
 	"Si.PilotPenny.Books.MailName2": "A Book About Bouyancy",
@@ -27,6 +36,7 @@
 	"Si.PilotPenny.Books.MailContent3": "Hi @, here's a copy of one of the balloon building books I've been referencing to design my hot air balloon. I thought you might be interested!  ^   -Penny",
 	"Si.PilotPenny.Books.MailName4": "How To Train Your Balloon Pilot",
 	"Si.PilotPenny.Books.MailContent4": "Hi @! I thought you might be interested in what the balloon pilot certification process looks like, so here you go!  ^   -Penny",
+	// Book Entries
 	"Si.PilotPenny.BalloonIntro.BookName": "Introduction To Hot Air Balloons",
 	"Si.PilotPenny.BalloonIntro.BookDesc": "",
 	"Si.PilotPenny.BalloonIntro.BookContent": "",

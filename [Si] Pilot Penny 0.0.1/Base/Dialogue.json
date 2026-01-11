@@ -1,7 +1,5 @@
 {
 
-	// Dialogue for vanilla NPCs other than Seb
-
 	"Changes": [
 
 		// Penny
@@ -30,9 +28,9 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Pam",
 			"Entries": {
-				"PilotPenny3": "Listen, don't tell Penny what we talked about, kay?$4#$b#I don't wanna dampen that fire she's building up.$4",
-				"PilotPenny7": "Penny sure cares about that balloon she's building huh...$2",
-				"PilotPenny8": "Penny's gonna fly real high, you'll see.",
+				"PilotPenny3": "{{i18n:Si.PilotPenny.Pam.PilotPenny3}}",
+				"PilotPenny7": "{{i18n:Si.PilotPenny.Pam.PilotPenny7}}",
+				"PilotPenny8": "{{i18n:Si.PilotPenny.Pam.PilotPenny8}}",
 			},
 		},
 
@@ -41,8 +39,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Emily",
 			"Entries": {
-				"PilotPenny7": "Penny's been asking me a lot of questions about sewing.#$b#So I offered to let her borrow my sewing machine.#$b#She won't stop thanking me!$1",
-				"PilotPenny10": "I've been helping Penny sew the envelope for her hot air balloon!$1#$b#The cloth you gave her is very high quality.#$e#She told me she'll let me ride it once it's built.#$b#I can't wait!$1",
+				"PilotPenny7": "{{i18n:Si.PilotPenny.Emily.PilotPenny7}}",
+				"PilotPenny10": "{{i18n:Si.PilotPenny.Emily.PilotPenny10}}",
 			},
 		},
 
