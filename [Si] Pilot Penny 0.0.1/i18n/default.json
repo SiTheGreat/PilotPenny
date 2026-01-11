@@ -1,5 +1,13 @@
 {
 	// Dialogue
+	"Si.PilotPenny.Penny.Town_110_27": "Hi @!#$b#Are you checking for new books too?$1",
+	"Si.PilotPenny.Penny.Town_106_24": "Hello @!#$b#I'm just doing some maintenance on my balloon.#$b#We should go for a flight later!$1",
+	"Si.PilotPenny.Penny.PilotPenny1": "Can you imagine?$3#$b#Soaring high above the clouds, going wherever you want...#$b#Looking for new books to read and share!$1#$b#I wish I could do that...",
+	"Si.PilotPenny.Penny.PilotPenny2": "I can't stop thinking about that flight!$1#$b#It was like nothing I've ever read before.#$b#I've been trying to tell everyone about it, but it's so hard to put into words!$1",
+	"Si.PilotPenny.Penny.PilotPenny4": "I was worried that it would be too early to start introducing the children to the concept of bouyancy, but they're really catching on!$1#$b#I wish I could take them up for a balloon ride. Maybe when they're older...",
+	"Si.PilotPenny.Penny.PilotPenny5": "My own balloon...$2#$b#Oh, sorry @, I didn't see you there.$3#$b#Did you need something?",
+	"Si.PilotPenny.Penny.PilotPenny7": "My balloon plans are almost done!#$b#I'm going to start building it soon!$1",
+	"Si.PilotPenny.Penny.PilotPenny8": "My mom and I had a long talk.#$b#Our relationship needs some work, but I think we're in a better place than we were before, and that means a lot to me.",
 	"Si.PilotPenny.Penny.BalloonIntro": "",
 	"Si.PilotPenny.Penny.Bouyancy": "",
 	"Si.PilotPenny.Penny.BalloonCraft": "",
