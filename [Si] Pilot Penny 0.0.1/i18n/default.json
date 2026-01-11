@@ -1,4 +1,11 @@
 {
+	// Config
+	"config.PennyBalloonSched.name": "PennyBalloonSched",
+	"config.PennyBalloonSched.description": "When disabled, Penny will not stop by her balloon once a week.",
+	"config.PennyBooksellerSched.name": "PennyBooksellerSched",
+	"config.PennyBooksellerSched.description": "When disabled, Penny will not visit the Bookseller when he's in town on non-school days.",
+	"config.CrossoverContent.name": "CrossoverContent",
+	"config.CrossoverContent.description": "When disabled, crossover content with other mods will not occur. See mod page for list of crossover content.",
 	// Dialogue //////////////////////////////////////////////////////////
 	// Penny
 	"Si.PilotPenny.Penny.Town_110_27": "Hi @!#$b#Are you checking for new books too?$1",
