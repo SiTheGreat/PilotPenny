@@ -1,4 +1,12 @@
 {
+	// Dialogue
+	"Si.PilotPenny.Penny.BalloonIntro": "",
+	"Si.PilotPenny.Penny.Bouyancy": "",
+	"Si.PilotPenny.Penny.BalloonCraft": "",
+	"Si.PilotPenny.Penny.BalloonCert": "",
+	"Si.PilotPenny.Penny.BreitlingOrbiter": "",
+	// Map Strings
+	// Events
 	// Books
 	"Si.PilotPenny.Books.MailName1": "Introducing Hot Air Balloons",
 	"Si.PilotPenny.Books.MailContent1": "Hi @! Thanks again for introducing me to Marcello. He's got so many interesting books! he gave me this one on hot air balloons. I've finished it, so I thought I'd send it over to you. Hope  you enjoy it!  ^   -Penny",

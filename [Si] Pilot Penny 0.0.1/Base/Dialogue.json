@@ -17,6 +17,11 @@
 				"PilotPenny5": "My own balloon...$2#$b#Oh, sorry @, I didn't see you there.$3#$b#Did you need something?",
 				"PilotPenny7": "My balloon plans are almost done!#$b#I'm going to start building it soon!$1",
 				"PilotPenny8": "My mom and I had a long talk.#$b#Our relationship needs some work, but I think we're in a better place than we were before, and that means a lot to me.",
+				"AcceptGift_(O){{ModId}}_BalloonIntroBook": "{{i18n:Si.PilotPenny.Penny.BalloonIntro}}",
+				"AcceptGift_(O){{ModId}}_BouyancyBook": "{{i18n:Si.PilotPenny.Penny.Bouyancy}}",
+				"AcceptGift_(O){{ModId}}_BalloonCraftBook": "{{i18n:Si.PilotPenny.Penny.BalloonCraft}}",
+				"AcceptGift_(O){{ModId}}_BalloonCertBook": "{{i18n:Si.PilotPenny.Penny.BalloonCert}}",
+				"AcceptGift_(O){{ModId}}_BreitlingOrbiterBook": "{{i18n:Si.PilotPenny.Penny.BreitlingOrbiter}}",
 			},
 		},
 
