@@ -49,13 +49,13 @@
 
 		// Crossovers //////////////////////////////////////////////////////////
 
-		// {
-		// 	"Action": "Include",
-		// 	"FromFile": "Crossovers/Crossovers.json",
-		// 	"When": {
-		// 		"CrossoverContent": true
-		// 	}
-		// },
+		{
+			"Action": "Include",
+			"FromFile": "Crossovers/Crossovers.json",
+			"When": {
+				"CrossoverContent": true
+			}
+		},
 
 		// End //////////////////////////////////////////////////////////
 

@@ -3,7 +3,7 @@
 
 	// Trigger Dialogue
 	{
-		"LogName": "Si Pilot Penny Trigger Dialogue",
+		"LogName": "Pilot Penny Trigger Dialogue",
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/Penny",
 		"Priority": "Late",

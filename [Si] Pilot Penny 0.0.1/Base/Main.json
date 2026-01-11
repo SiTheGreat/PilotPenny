@@ -25,6 +25,29 @@
 			"Action": "Include",
 			"FromFile": "Base/TempNPC.json",
 		},
+
+		// Event Map
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_Map1",
+			"FromFile": "Base/BalloonSky.tmx",
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"{{ModId}}_Map1": {
+					"DisplayName": "Balloon Flight Path",						
+					"CreateOnLoad": { 
+						"MapPath": "Maps/{{ModId}}_Map1" 
+					},
+					"DefaultArrivalTile": {
+						"X": 17,
+						"Y": 15
+					}
+				}
+			}
+		},
 		
 
 		// Balloon Map Patch
@@ -90,30 +113,6 @@
 					}
 				},
 			],
-		},
-
-
-		// Event Map
-		{
-			"Action": "Load",
-			"Target": "Maps/{{ModId}}_Map1",
-			"FromFile": "Base/BalloonSky.tmx",
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"Entries": {
-				"{{ModId}}_Map1": {
-					"DisplayName": "Balloon Flight Path",						
-					"CreateOnLoad": { 
-						"MapPath": "Maps/{{ModId}}_Map1" 
-					},
-					"DefaultArrivalTile": {
-						"X": 17,
-						"Y": 15
-					}
-				}
-			}
 		},
 
 		// End //////////////////////////////////////////////////////////
