@@ -62,6 +62,8 @@
 				},
 		},
 
+		// Warps
+
 		// Map Strings
 		{
 			"Action": "EditMap",

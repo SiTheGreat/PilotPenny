@@ -16,6 +16,9 @@
 	"Si.PilotPenny.Penny.PilotPenny5": "My own balloon...$2#$b#Oh, sorry @, I didn't see you there.$3#$b#Did you need something?",
 	"Si.PilotPenny.Penny.PilotPenny7": "My balloon plans are almost done!#$b#I'm going to start building it soon!$1",
 	"Si.PilotPenny.Penny.PilotPenny8": "My mom and I had a long talk.#$b#Our relationship needs some work, but I think we're in a better place than we were before, and that means a lot to me.",
+	"Si.PilotPenny.Penny.PilotPenny11": "I hope you had fun!$1#$b#I'm taking my mom flying next.#$b#I hope she enjoys it...$2",
+	"Si.PilotPenny.Penny.PilotPenny12": "I think mom liked flying!#$b#Well, she wouldn't stop gripping my arm, but she looked really happy at least.$1#$b#I haven't seen her smile so genuinely in a long time.#$b#...$3#$b#Thanks for all your support @.#$b#You helped me push myself to try something new, strengthen my relationship with someone I care about.#$b#You're a great person, and I hope your life is as enriched as you've made mine.$1",
+	"Si.PilotPenny.Penny.PilotPenny13": "People have started asking me if I offer balloon rides.$1#$b#I can't charge for them without a commercial pilot license, but I can still take them up for fun!$1#$e#Hm, maybe I should look into that...",
 	"Si.PilotPenny.Penny.BalloonIntro": "I love being able to travel by hot air balloon!$1#$b#I should plan a proper trip somewhere...",
 	"Si.PilotPenny.Penny.Bouyancy": "This book will help with my lesson plan!#$b#Thanks @.$1",
 	"Si.PilotPenny.Penny.BalloonCraft": "A lot of work goes into building a hot air balloon, but even more goes into the paperwork!$1#$b#So many safety inspections...",
@@ -25,9 +28,32 @@
 	"Si.PilotPenny.Pam.PilotPenny3": "Listen, don't tell Penny what we talked about, kay?$4#$b#I don't wanna dampen that fire she's building up.$4",
 	"Si.PilotPenny.Pam.PilotPenny7": "Penny sure cares about that balloon she's building huh...$2",
 	"Si.PilotPenny.Pam.PilotPenny8": "Penny's gonna fly real high, you'll see.",
+	"Si.PilotPenny.Pam.PilotPenny11": "Penny said she took you flying.#$b#Said she'll take me up there soon.#$b#To tell ya the truth kid, I'm scared outta my shoes.$2#$b#But I wanna be there for her, so I'm gonna be.#$b#Even told Gus to cut me off any drinks the night before so I can be present proper, y'know?$1",
+	"Si.PilotPenny.Pam.PilotPenny12": "I did it!$1#$b#Penny and I went flying.#$b#She was so happy, wouldn't stop talking 'bout all the balloon parts, the wind currents, the places we could see...#$b#I...$2#$b#...$2#$b#I'm glad.$1#$b#Thanks for helping' her out @.#$b#You're a good kid, you know that?$1",
+	"Si.PilotPenny.Pam.PilotPenny13": "Didja know Caroline grows her own tea?#$b#Penny asked me to have some with her.#$b#Not the best stuff in the world, but if I can chug beer, I can have a cup o' leaf juice for my girl.$1",
 	// Emily
 	"Si.PilotPenny.Emily.PilotPenny7": "Penny's been asking me a lot of questions about sewing.#$b#So I offered to let her borrow my sewing machine.#$b#She won't stop thanking me!$1",
 	"Si.PilotPenny.Emily.PilotPenny10": "I've been helping Penny sew the envelope for her hot air balloon!$1#$b#The cloth you gave her is very high quality.#$e#She told me she'll let me ride it once it's built.#$b#I can't wait!$1",
+	"Si.PilotPenny.Emily.PilotPenny13": "Have you seen Penny's balloon yet?#$b#It's so beautiful!$1#$e#She said we'll go flying sometime soon!$1#$b#To soar high up, drifting along like a cloud...",
+	"Si.PilotPenny.Emily.PilotPenny14": "Haley rode in Penny's balloon with me!$1#$b#It was such a wonderful feeling @.#$b#Weightlessness, all the worries flown away like leaves...#$b#I'm inspired to make some balloon-themed outfits now.$1",
+	// Jas
+	"Si.PilotPenny.Jas.PilotPenny4": "The suitcase example helped me understand what 'density' is.#$b#It's why some things are heavier than other things, even if they look the same!$4",
+	"Si.PilotPenny.Jas.PilotPenny11": "Miss Penny showed us her hot air balloon!#$b#She said we might get to ride it when we're tall enough to see out of the basket.$1#$b#I can't wait!",
+	// Vincent
+	"Si.PilotPenny.Vincent.PilotPenny4": "I wonder if mud floats.$3#$b#I should bring some to class so we can try it too!",
+	"Si.PilotPenny.Vincent.PilotPenny11": "We went on a field trip to see Miss Penny's balloon!$1#$b#She said if we grow taller than the basket we can ride on it!#$b#I asked Sam how many years that would be and he said a million.$3#$b#But that's so long!$2",
+	// Leah
+	"Si.PilotPenny.Leah.PilotPenny13": "I asked Penny if I could paint a picture of her hot air balloon.#$b#She not only said yes, she invited me for a ride so I could paint the valley from up there!$1",
+	// Maru
+	"Si.PilotPenny.Maru.PilotPenny13": "Penny's going to take me flying so I can test my homebuilt altimeter!$1#$b#I wonder if she'd let me outfit her basket with a full control panel...",
+	// Haley
+	"Si.PilotPenny.Haley.PilotPenny14": "Emily wouldn't stop talking about Penny's hot air balloon, so I went for a ride with them both to see what the fuss was about.#$b#Those were some spectacular views!$8#$b#I'm so glad I brought my camera.#$b#I got a lot of great shots!$1",
+	// Linus
+	"Si.PilotPenny.Linus.PilotPenny14": "I've been seeing a hot air balloon the sky close by lately.#$b#It's a much more peaceful view than the planes that usually fly over.$1",
+	// Elliott
+	"Si.PilotPenny.Elliott.PilotPenny13": "Penny and I got to talking about that hot air balloon of hers.#$b#Have you ever read 'Around The World In 20 Days' @?#$b#It's an enthralling tale about the world's longest balloon trip.$1#$b#I wonder if the library has a copy.",
+	// Harvey
+	"Si.PilotPenny.Harvey.PilotPenny14": "Penny's so brave, going up in that balloon all the time.#$b#I don't think I could fly that often.#$b#And certainly not alone!$1#$b#She offered to help me learn to manage my fear with slow trips, but I think I'll keep my feet planted firmly on the ground for now.",
 	// Map Strings
 	"Si.PilotPenny.BalloonStrings.Time": "Penny can't fly her balloon at night for safety reasons.",
 	"Si.PilotPenny.BalloonStrings.Rain": "Penny can't fly her balloon in the rain for safety reasons.",

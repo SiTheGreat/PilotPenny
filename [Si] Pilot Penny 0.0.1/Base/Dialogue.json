@@ -15,6 +15,9 @@
 				"PilotPenny5": "{{i18n:Si.PilotPenny.Penny.PilotPenny5}}",
 				"PilotPenny7": "{{i18n:Si.PilotPenny.Penny.PilotPenny7}}",
 				"PilotPenny8": "{{i18n:Si.PilotPenny.Penny.PilotPenny8}}",
+				"PilotPenny11": "{{i18n:Si.PilotPenny.Penny.PilotPenny11}}",
+				"PilotPenny12": "{{i18n:Si.PilotPenny.Penny.PilotPenny12}}",
+				"PilotPenny13": "{{i18n:Si.PilotPenny.Penny.PilotPenny13}}",
 				"AcceptGift_(O){{ModId}}_BalloonIntroBook": "{{i18n:Si.PilotPenny.Penny.BalloonIntro}}",
 				"AcceptGift_(O){{ModId}}_BouyancyBook": "{{i18n:Si.PilotPenny.Penny.Bouyancy}}",
 				"AcceptGift_(O){{ModId}}_BalloonCraftBook": "{{i18n:Si.PilotPenny.Penny.BalloonCraft}}",
@@ -31,6 +34,9 @@
 				"PilotPenny3": "{{i18n:Si.PilotPenny.Pam.PilotPenny3}}",
 				"PilotPenny7": "{{i18n:Si.PilotPenny.Pam.PilotPenny7}}",
 				"PilotPenny8": "{{i18n:Si.PilotPenny.Pam.PilotPenny8}}",
+				"PilotPenny11": "{{i18n:Si.PilotPenny.Pam.PilotPenny11}}",
+				"PilotPenny12": "{{i18n:Si.PilotPenny.Pam.PilotPenny12}}",
+				"PilotPenny13": "{{i18n:Si.PilotPenny.Pam.PilotPenny13}}",
 			},
 		},
 
@@ -41,6 +47,84 @@
 			"Entries": {
 				"PilotPenny7": "{{i18n:Si.PilotPenny.Emily.PilotPenny7}}",
 				"PilotPenny10": "{{i18n:Si.PilotPenny.Emily.PilotPenny10}}",
+				"PilotPenny11": "{{i18n:Si.PilotPenny.Emily.PilotPenny11}}",
+				"PilotPenny12": "{{i18n:Si.PilotPenny.Emily.PilotPenny12}}",
+				"PilotPenny13": "{{i18n:Si.PilotPenny.Emily.PilotPenny13}}",
+				"PilotPenny14": "{{i18n:Si.PilotPenny.Emily.PilotPenny14}}",
+			},
+		},
+
+		// Jas
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jas",
+			"Entries": {
+				"PilotPenny4": "{{i18n:Si.PilotPenny.Jas.PilotPenny4}}",
+				"PilotPenny11": "{{i18n:Si.PilotPenny.Jas.PilotPenny11}}",
+			},
+		},
+
+		// Vincent
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			"Entries": {
+				"PilotPenny4": "{{i18n:Si.PilotPenny.Vincent.PilotPenny4}}",
+				"PilotPenny11": "{{i18n:Si.PilotPenny.Vincent.PilotPenny11}}"
+			},
+		},
+
+		// Leah
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries": {
+				"PilotPenny13": "{{i18n:Si.PilotPenny.Leah.PilotPenny13}}",
+			},
+		},
+
+		// Maru
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": {
+				"PilotPenny13": "{{i18n:Si.PilotPenny.Maru.PilotPenny13}}",
+			},
+		},
+
+		// Haley
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries": {
+				"PilotPenny14": "{{i18n:Si.PilotPenny.Haley.PilotPenny14}}",
+			},
+		},
+
+		// Linus
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Linus",
+			"Entries": {
+				"PilotPenny14": "{{i18n:Si.PilotPenny.Linus.PilotPenny14}}",
+			},
+		},
+
+		// Elliott
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries": {
+				"PilotPenny13": "{{i18n:Si.PilotPenny.Elliott.PilotPenny13}}",
+			},
+		},
+
+		// Harvey
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": {
+				"PilotPenny14": "{{i18n:Si.PilotPenny.Harvey.PilotPenny14}}",
 			},
 		},
 

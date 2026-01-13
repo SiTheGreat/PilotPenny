@@ -46,13 +46,19 @@
 		"{{ModId}}_H2/e {{ModId}}_H1/n {{ModId}}_M5/A PilotPenny9/f Penny 2000": "none/-1000 -1000/farmer -100 -100 2/mail {{ModId}}_M6/AddConversationTopic PilotPenny10 5/end",
 
 		"{{ModId}}_H3/e {{ModId}}_H2/n {{ModId}}_M6/A PilotPenny10/f Penny 2000": "none/-1000 -1000/farmer -100 -100 2/mail {{ModId}}_M7/end",
+
+		"{{ModId}}_H4/e {{ModId}}_E9/A PilotPenny11/f Penny 2000": "none/-1000 -1000/farmer -100 -100 2/AddConversationTopic PilotPenny12 7/end",
+
+		"{{ModId}}_H5/e {{ModId}}_H4/A PilotPenny12/f Penny 2000": "none/-1000 -1000/farmer -100 -100 2/AddConversationTopic PilotPenny13 7/end",
+
+		"{{ModId}}_H6/e {{ModId}}_H5/A PilotPenny13/f Penny 2000": "none/-1000 -1000/farmer -100 -100 2/AddConversationTopic PilotPenny14 7/end",
 	},
 
 	{
 	"Action": "EditData",
 	"Target": "Data/Events/Town", //
 	"Entries": {
-		"{{ModId}}_E9/e {{ModId}}_H3/n {{ModId}}_M7/t 600 1600/w sunny/f Penny 2000": "continue/107 28/farmer 107 28 3 Penny 106 28 1 {{ModId}}_TempNPC 109 28 0/addConversationTopic PilotPenny11 5/skippable/fade/pause 300/speak Penny \"Ready to fly @?\"/pause 200/emote farmer 32/pause 200/emote Penny 20/pause 200/speak Penny \"Let's go then.$1\"/pause 200/faceDirection Pnny 0/pause 100/faceDirection farmer 0/pause 200/fade/changeToTemporaryMap {{ModId}}_Map1/viewport 17 13/warp {{ModId}}_TempNPC 36 13/warp farmer 36 13/warp Penny 37 13/faceDirection farmer 2/faceDirection Penny 2/pause 200/playSound busDriveOff/pause 200/fade/pause 400/textAboveHead {{ModId}}_TempNPC \"Woah\"/pause 200/emote Penny 32/pause 200/speak Penny \"Beautiful, isn't it?#$b#It took me a while to stop getting distracted when Marcello was teaching me.$1\"/pause 200/emote farmer 20/pause 200/emote Penny 56/pause 200/emote Penny 40/pause 200/speak Penny \"I'm so glad I did this.\"/Being able to float freely above the mountains like this...#$b#All my worries and fears just melt away.#$b#I'm on top of the world up here!$1\"/pause 200/faceDirection farmer 1/pause 200/emote farmer 32/pause 200/faceDirection farmer 2/pause 200/emote Penny 56/pause 500/emote Penny 40/pause 200/speak Penny \"I wonder what my mom will say when I bring her up here...$2\"/pause 200/quickQuestion How do you respond?#She'll say she's proud of you.#She'll say she wants you to keep flying higher.#She'll ask if she can bring a drink with her.#Stay silent.(break)speak Penny \"I don't know if she'll say that out loud.$3#$b#But I hope that's how she feels.\"(break)speak Penny \"Well, the sky's the limit.$1#$b#But I hope she knows I'll always come back down to see her.\"(break)speak Penny \"Heh, yeah...$2#$b#But that's alright.$3#$b#As long as she's still there for me.\"(break)pause 200\\emote Penny 40\\pause 200\\speak Penny \"Or maybe...$3#$b#...$2#$b#...maybe it doesn't matter.$3#$b#Whatever she says...$3#$b#All that matters, is that she'll be up here with me.#$b#We might have a long way to go, full of potholes and stray winds...$3#$b#But as long as she's standing here, that's good enough for me.$1\"/pause 200/emote farmer 56/pause 300/end position 109 29/fade",
+		"{{ModId}}_E9/e {{ModId}}_H3/n {{ModId}}_M7/t 600 1600/w sunny/f Penny 2000": "continue/107 28/farmer 107 28 3 Penny 106 28 1 {{ModId}}_TempNPC 109 28 0/addConversationTopic PilotPenny11 5/skippable/fade/pause 300/speak Penny \"Ready to fly @?\"/pause 200/emote farmer 32/pause 200/emote Penny 20/pause 200/speak Penny \"Let's go then.$1\"/pause 200/faceDirection Penny 0/pause 100/faceDirection farmer 0/pause 200/fade/changeToTemporaryMap {{ModId}}_Map1/viewport 17 13/warp {{ModId}}_TempNPC 36 13/warp farmer 36 13/warp Penny 37 13/faceDirection farmer 2/faceDirection Penny 2/pause 200/playSound busDriveOff/pause 200/fade/pause 400/textAboveHead {{ModId}}_TempNPC \"Woah\"/pause 200/emote Penny 32/pause 200/speak Penny \"Beautiful, isn't it?#$b#It took me a while to stop getting distracted when Marcello was teaching me.$1\"/pause 200/emote farmer 20/pause 200/emote Penny 56/pause 200/emote Penny 40/pause 200/speak Penny \"I'm so glad I did this.\"/Being able to float freely above the mountains like this...#$b#All my worries and fears just melt away.#$b#I'm on top of the world up here!$1\"/pause 200/faceDirection farmer 1/pause 200/emote farmer 32/pause 200/faceDirection farmer 2/pause 200/emote Penny 56/pause 500/emote Penny 40/pause 200/speak Penny \"I wonder what my mom will say when I bring her up here...$2\"/pause 200/quickQuestion How do you respond?#She'll say she's proud of you.#She'll say she wants you to keep flying higher.#She'll ask if she can bring a drink with her.#Stay silent.(break)speak Penny \"I don't know if she'll say that out loud.$3#$b#But I hope that's how she feels.\"(break)speak Penny \"Well, the sky's the limit.$1#$b#But I hope she knows I'll always come back down to see her.\"(break)speak Penny \"Heh, yeah...$2#$b#But that's alright.$3#$b#As long as she's still there for me.\"(break)pause 200\\emote Penny 40\\pause 200\\speak Penny \"Or maybe...$3#$b#...$2#$b#...maybe it doesn't matter.$3#$b#Whatever she says...$3#$b#All that matters, is that she'll be up here with me.#$b#We might have a long way to go, full of potholes and stray winds...$3#$b#But as long as she's standing here, that's good enough for me.$1\"/pause 200/emote farmer 56/pause 300/end position 109 29/fade",
 		},
 	},
 
@@ -95,19 +101,7 @@
 		},
 	},
 
-	// Use either DaisyNiko or Sharrogg panoramas for flight event. Penny thanks you for helping her try something new
-
-	// CTs - Pam, Maru, Elliott, the kids, their parental figures, Leah, Haley, Harvey, Lewis
-
-	// Bonus event - Pam and Penny go ballooning - add to CT list instead?
-
-	// Bonus event - Penny hangs out with Linus talking about books - ditto?
-
 	// Bonus marriage event - balloon date like Harvey's
-
-	// Wonder if I can add a repeatable event with random panos each time interacting w balloon... (maybe w randomized coords?)
-
-	// Continue hidden events just for CTs?
 
 	]
 }
