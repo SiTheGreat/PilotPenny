@@ -142,6 +142,7 @@
 				"ExcludeFromShippingCollection": true,
 				"SpriteIndex": 1,
 				"ContextTags": [
+					"physics_book",
 					"science_book",
 					"bc_book",
 				],

@@ -1,7 +1,7 @@
 {
 	// Config
 	"config.PennyBalloonSched.name": "PennyBalloonSched",
-	"config.PennyBalloonSched.description": "When disabled, Penny will not stop by her balloon once a week.",
+	"config.PennyBalloonSched.description": "When disabled, Penny will not stop by her balloon on Thursdays.",
 	"config.PennyBooksellerSched.name": "PennyBooksellerSched",
 	"config.PennyBooksellerSched.description": "When disabled, Penny will not visit the Bookseller when he's in town on non-school days.",
 	"config.CrossoverContent.name": "CrossoverContent",
@@ -45,18 +45,18 @@
 	"Si.PilotPenny.Books.MailContent4": "Hi @! I thought you might be interested in what the balloon pilot certification process looks like, so here you go!  ^   -Penny",
 	// Book Entries
 	"Si.PilotPenny.BalloonIntro.BookName": "Introduction To Hot Air Balloons",
-	"Si.PilotPenny.BalloonIntro.BookDesc": "",
-	"Si.PilotPenny.BalloonIntro.BookContent": "",
+	"Si.PilotPenny.BalloonIntro.BookDesc": "The invention of humanity's first flight machines.",
+	"Si.PilotPenny.BalloonIntro.BookContent": "Rather than a rudder or any kind of steering mechanism, pilots rely on air streams to direct their balloons. By heating up the air inside the balloon using a burner, or releasing air from the balloon by a vent, the pilot can move the balloon up and down, taking advantage of wind currents that differ at different altitudes tp push them in the direction they want to go. This means that, in flight, the balloon is at the mercy of the sky, drifting along like a hot, colorful cloud.",
 	"Si.PilotPenny.Bouyancy.BookName": "The Big Book of Bouyancy",
 	"Si.PilotPenny.Bouyancy.BookDesc": "Learn the science behind why things float!",
-	"Si.PilotPenny.Bouyancy.BookContent": "",
+	"Si.PilotPenny.Bouyancy.BookContent": "When an object is placed inside a fluid, some of the fluid gets pushed out of the way. If the weight of the object is less than the weight of the fluid that was pushed, then the object will sit on top of the fluid, making it float. If the weight of the object is greater than the weight of the pushed fluid, then it will sink.^The density of the object's material determines how heavy it is based on its size. If two objects of the same size are placed in water, each pushing the same amount of water out of the way, then the denser object will be heavier than that amount of water and will sink while the less dense object, which is lighter than that same amount of pushed water, stays up.^This happens with air too. When air is heated, its density decreases as the air particles drift away from each other. Heated air is less dense than regular air, and therefore floats to the top. This is why, in winter, a heated house is warmer upstairs than downstairs.",
 	"Si.PilotPenny.BalloonCraft.BookName": "Ballooncraft For Beginners",
 	"Si.PilotPenny.BalloonCraft.BookDesc": "Materials, techniques, patterns, and more!",
-	"Si.PilotPenny.BalloonCraft.BookContent": "",
+	"Si.PilotPenny.BalloonCraft.BookContent": "The actual 'balloon' of a hot air balloon is known as the envelope, and it is comprised of several panels of fabric called 'gores', often arranged in colorful patterns. At the top of the envelope, a vent allows the pilot to release air when descending. The bottom, or 'skirt', of the envelope is made of fire-resistant materials to avoid being set alight by the propane burner.^^The wicker basket that holds passengers and fuel is typically constructed around a lightweight metal frame, such as aluminium or stainless steel, and attached to the balloon via metal cables.",
 	"Si.PilotPenny.BalloonCert.BookName": "Balloon Pilot Certification Guide",
 	"Si.PilotPenny.BalloonCert.BookDesc": "The process of becoming licensed to fly hot air balloons.",
-	"Si.PilotPenny.BalloonCert.BookContent": "To summarize, here are the steps:",
+	"Si.PilotPenny.BalloonCert.BookContent": "To summarize, here are the steps:^^-Submit your application for a Student Pilot Certificate to the Ferngill Aviation Administration.^-Medical examination confirming you do not have any conditions preventing you from operating the balloon safely.^-Pass the Ferngill Aviation Administration Written Knowledge Test.^-Minimum ten hours of flight training under a certified Flight Instructor, as well as one solo flight.^-Perform a check ride and pass the Ferngill Aviation Administration Practical Knowledge Test.^^Once you have received your license, you will be required to complete a flight review every two years to maintain it.",
 	"Si.PilotPenny.BreitlingOrbiter.BookName": "Around The World In 20 Days",
 	"Si.PilotPenny.BreitlingOrbiter.BookDesc": "The inspiring journey of the longest trip ever flown by a hot air balloon!",
-	"Si.PilotPenny.BreitlingOrbiter.BookContent": "",
+	"Si.PilotPenny.BreitlingOrbiter.BookContent": "The Breitling Orbiter 3, the first hot air balloon to circumnavigate the globe, completed its journey in 19 days, 21 hours, and 47 minutes, without stopping to refuel. The two pilots on board shared tales of frozen drinking water, a single small bunk, and a pressure-operated toilet designed for the trip, ruminating on how their bond strengthened over the course of the flight. \"We took off as friends and landed as brothers.\"",
 }
