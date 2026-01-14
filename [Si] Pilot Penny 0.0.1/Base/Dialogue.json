@@ -139,7 +139,7 @@
 			"Update": "OnTimeChange",
 			"When": {
 				"Time": "{{Range: 1700, 2600}}",
-				"Weather": "Sun, Wind"
+				"Weather": "Sun, Wind",
 			},
 		},
 
@@ -150,7 +150,7 @@
 				"{{ModId}}_BalloonMapString": "{{i18n:Si.PilotPenny.BalloonStrings.Rain}}",
 			},
 			"When": {
-				"Weather": "Rain, Storm, GreenRain"
+				"Weather": "Rain, Storm, GreenRain",
 			},
 		},
 
@@ -161,7 +161,7 @@
 				"{{ModId}}_BalloonMapString": "{{i18n:Si.PilotPenny.BalloonStrings.Snow}}",
 			},
 			"When": {
-				"Weather": "Snow"
+				"Weather": "Snow",
 			},
 		},
 

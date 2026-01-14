@@ -26,6 +26,18 @@
 			"FromFile": "Base/TempNPC.json",
 		},
 
+		// Balloon Map Patch
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"FromFile": "Base/PennyBalloonPatch.tmx",
+			"ToArea": { "X": 102, "Y": 12, "Width": 7, "Height": 12 },
+			"PatchMode": "Overlay",
+			"When": {
+					"HasFlag:hostPlayer |contains={{ModId}}_M7": true,
+				},
+		},
+
 		// Event Map
 		{
 			"Action": "Load",
@@ -44,25 +56,135 @@
 					"DefaultArrivalTile": {
 						"X": 17,
 						"Y": 15
-					}
-				}
-			}
-		},
-		
-
-		// Balloon Map Patch
-		{
-			"Action": "EditMap",
-			"Target": "Maps/Town",
-			"FromFile": "Base/PennyBalloonPatch.tmx",
-			"ToArea": { "X": 102, "Y": 12, "Width": 7, "Height": 12 },
-			"PatchMode": "Overlay",
-			"When": {
-					"HasFlag:hostPlayer |contains={{ModId}}_M7": true,
+					},
+					"Music": [
+						{
+							"Id": "BalloonMusicSpring",
+							"Track": "fall3",
+							"Condition": "SEASON Spring"
+						},
+						{
+							"Id": "BalloonMusicSummer",
+							"Track": "fall3",
+							"Condition": "SEASON Summer"
+						},
+						{
+							"Id": "BalloonMusicFall",
+							"Track": "fall3",
+							"Condition": "SEASON Fall"
+						},
+						{
+							"Id": "BalloonMusicWinter",
+							"Track": "fall3",
+							"Condition": "SEASON Winter"
+						},
+					],
+					"MusicDefault": "fall3",
 				},
+			},
 		},
 
 		// Warps
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"When": {
+					"HasFlag:hostPlayer |contains={{ModId}}_M7": true,
+					"Weather": "Sun, Wind",
+				},
+			"MapTiles": [
+				{
+					"Position": { "X": 104, "Y": 22 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "LockedDoorWarp 17 15 {{ModId}}_Map1 600 1700"
+					}
+				},
+				{
+					"Position": { "X": 105, "Y": 22 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "LockedDoorWarp 17 15 {{ModId}}_Map1 600 1700"
+					}
+				},
+				{
+					"Position": { "X": 106, "Y": 22 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "LockedDoorWarp 17 15 {{ModId}}_Map1 600 1700"
+					}
+				},
+				{
+					"Position": { "X": 104, "Y": 23 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "LockedDoorWarp 17 15 {{ModId}}_Map1 600 1700"
+					}
+				},
+				{
+					"Position": { "X": 105, "Y": 23 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "LockedDoorWarp 17 15 {{ModId}}_Map1 600 1700"
+					}
+				},
+				{
+					"Position": { "X": 106, "Y": 23 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "LockedDoorWarp 17 15 {{ModId}}_Map1 600 1700"
+					}
+				},
+			],
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_Map1",
+			"MapTiles": [
+				{
+					"Position": { "X": 17, "Y": 16 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "LockedDoorWarp 105 24 Town 600 2600"
+					}
+				},
+				{
+					"Position": { "X": 18, "Y": 16 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "LockedDoorWarp 105 24 Town 600 2600"
+					}
+				},
+				{
+					"Position": { "X": 16, "Y": 15 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "LockedDoorWarp 105 24 Town 600 2600"
+					}
+				},
+				{
+					"Position": { "X": 19, "Y": 15 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "LockedDoorWarp 105 24 Town 600 2600"
+					}
+				},
+				{
+					"Position": { "X": 17, "Y": 14 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "LockedDoorWarp 105 24 Town 600 2600"
+					}
+				},
+				{
+					"Position": { "X": 18, "Y": 14 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "LockedDoorWarp 105 24 Town 600 2600"
+					}
+				},
+			],
+		},
 
 		// Map Strings
 		{
