@@ -68,12 +68,6 @@
 		"FromFile": "Crossovers/BookCollecting/Books.png"
 	},
 
-	{
-		"Action": "Load",
-		"Target": "Mods/{{ModId}}/BouyancyPages",
-		"FromFile": "Crossovers/BookCollecting/BouyancyPages.png"
-	},
-
 	// Create book objects //////////////////////////////////////////////////////////
 
 	{
@@ -85,7 +79,7 @@
 			"{{ModId}}_BalloonIntroBookNote": {
 				"Name": "{{ModId}}_BalloonIntroBookNote",
 				"DisplayName": "{{i18n:Si.PilotPenny.BalloonIntro.BookName}}",
-				"Description": "Si.PilotPenny.BalloonIntro.BookDesc",
+				"Description": "{{i18n:Si.PilotPenny.BalloonIntro.BookDesc}}",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 530,
@@ -101,7 +95,7 @@
 			"{{ModId}}_BalloonIntroBook": {
 				"Name": "{{ModId}}_BalloonIntroBook",
 				"DisplayName": "{{i18n:Si.PilotPenny.BalloonIntro.BookName}}",
-				"Description": "Si.PilotPenny.BalloonIntro.BookDesc",
+				"Description": "{{i18n:Si.PilotPenny.BalloonIntro.BookDesc}}",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 530,
@@ -118,7 +112,7 @@
 			"{{ModId}}_BouyancyBookNote": {
 				"Name": "{{ModId}}_BouyancyBookNote",
 				"DisplayName": "{{i18n:Si.PilotPenny.Bouyancy.BookName}}",
-				"Description": "Si.PilotPenny.Bouyancy.BookDesc",
+				"Description": "{{i18n:Si.PilotPenny.Bouyancy.BookDesc}}",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 530,
@@ -134,7 +128,7 @@
 			"{{ModId}}_BouyancyBook": {
 				"Name": "{{ModId}}_BouyancyBook",
 				"DisplayName": "{{i18n:Si.PilotPenny.Bouyancy.BookName}}",
-				"Description": "Si.PilotPenny.Bouyancy.BookDesc",
+				"Description": "{{i18n:Si.PilotPenny.Bouyancy.BookDesc}}",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 530,
@@ -152,7 +146,7 @@
 			"{{ModId}}_BalloonCraftBookNote": {
 				"Name": "{{ModId}}_BalloonCraftBookNote",
 				"DisplayName": "{{i18n:Si.PilotPenny.BalloonCraft.BookName}}",
-				"Description": "Si.PilotPenny.BalloonCraft.BookDesc",
+				"Description": "{{i18n:Si.PilotPenny.BalloonCraft.BookDesc}}",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 530,
@@ -168,7 +162,7 @@
 			"{{ModId}}_BalloonCraftBook": {
 				"Name": "{{ModId}}_BalloonCraftBook",
 				"DisplayName": "{{i18n:Si.PilotPenny.BalloonCraft.BookName}}",
-				"Description": "Si.PilotPenny.BalloonCraft.BookDesc",
+				"Description": "{{i18n:Si.PilotPenny.BalloonCraft.BookDesc}}",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 530,
@@ -185,7 +179,7 @@
 			"{{ModId}}_BalloonCertBookNote": {
 				"Name": "{{ModId}}_BalloonCertBookNote",
 				"DisplayName": "{{i18n:Si.PilotPenny.BalloonCert.BookName}}",
-				"Description": "Si.PilotPenny.BalloonCert.BookDesc",
+				"Description": "{{i18n:Si.PilotPenny.BalloonCert.BookDesc}}",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 530,
@@ -201,7 +195,7 @@
 			"{{ModId}}_BalloonCertBook": {
 				"Name": "{{ModId}}_BalloonCertBook",
 				"DisplayName": "{{i18n:Si.PilotPenny.BalloonCert.BookName}}",
-				"Description": "Si.PilotPenny.BalloonCert.BookDesc",
+				"Description": "{{i18n:Si.PilotPenny.BalloonCert.BookDesc}}",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 530,
@@ -218,7 +212,7 @@
 			"{{ModId}}_BreitlingOrbiterBookNote": {
 				"Name": "{{ModId}}_BreitlingOrbiterBookNote",
 				"DisplayName": "{{i18n:Si.PilotPenny.BreitlingOrbiter.BookName}}",
-				"Description": "Si.PilotPenny.BreitlingOrbiter.BookDesc",
+				"Description": "{{i18n:Si.PilotPenny.BreitlingOrbiter.BookDesc}}",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 530,
@@ -235,7 +229,7 @@
 			"{{ModId}}_BreitlingOrbiterBook": {
 				"Name": "{{ModId}}_BreitlingOrbiterBook",
 				"DisplayName": "{{i18n:Si.PilotPenny.BreitlingOrbiter.BookName}}",
-				"Description": "Si.PilotPenny.BreitlingOrbiter.BookDesc",
+				"Description": "{{i18n:Si.PilotPenny.BreitlingOrbiter.BookDesc}}",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 530,
@@ -260,10 +254,10 @@
 		"Action": "EditData",
 		"Entries": {
 
-			// BalloonIntro book
+			// BalloonIntro bookBook
 			"{{ModId}}_BalloonIntroBookSNF": {
 				"Title": "{{i18n:Si.PilotPenny.BalloonIntro.BookName}}",
-				"Contents": "Si.PilotPenny.BalloonIntro.BookContent",
+				"Contents": "{{i18n:Si.PilotPenny.BalloonIntro.BookContent}}",
 				"ObjectId": "(O){{ModId}}_BalloonIntroBookNote",
 				"Location": "null",
 				"NoteTexture": "Mods/Si.BC/blankbook",
@@ -278,10 +272,10 @@
 			// Bouyancy book
 			"{{ModId}}_BouyancyBookSNF": {
 				"Title": "{{i18n:Si.PilotPenny.Bouyancy.BookName}}",
-				"Contents": "Si.PilotPenny.Bouyancy.BookContent",
+				"Contents": "{{i18n:Si.PilotPenny.Bouyancy.BookContent}}",
 				"ObjectId": "(O){{ModId}}_BouyancyBookNote",
 				"Location": "null",
-				"NoteTexture": "Mods/{{ModId}}/BouyancyPages",
+				"NoteTexture": "Mods/Si.BC/blankbook",
 				"NoteTextureIndex": 0,
 				"NoteTextColor": "rgb(12, 12, 80)",
 				"ActionsOnFirstRead": [
@@ -293,7 +287,7 @@
 			// BalloonCraft book
 			"{{ModId}}_BalloonCraftBookSNF": {
 				"Title": "{{i18n:Si.PilotPenny.BalloonCraft.BookName}}",
-				"Contents": "Si.PilotPenny.BalloonCraft.BookContent",
+				"Contents": "{{i18n:Si.PilotPenny.BalloonCraft.BookContent}}",
 				"ObjectId": "(O){{ModId}}_BalloonCraftBookNote",
 				"Location": "null",
 				"NoteTexture": "Mods/Si.BC/blankbook",
@@ -308,7 +302,7 @@
 			// BalloonCert book
 			"{{ModId}}_BalloonCertBookSNF": {
 				"Title": "{{i18n:Si.PilotPenny.BalloonCert.BookName}}",
-				"Contents": "Si.PilotPenny.BalloonCert.BookContent",
+				"Contents": "{{i18n:Si.PilotPenny.BalloonCert.BookContent}}",
 				"ObjectId": "(O){{ModId}}_BalloonCertBookNote",
 				"Location": "null",
 				"NoteTexture": "Mods/Si.BC/blankbook",
@@ -323,7 +317,7 @@
 			// BreitlingOrbiter book
 			"{{ModId}}_BreitlingOrbiterBookSNF": {
 				"Title": "{{i18n:Si.PilotPenny.BreitlingOrbiter.BookName}}",
-				"Contents": "Si.PilotPenny.BreitlingOrbiter.BookContent",
+				"Contents": "{{i18n:Si.PilotPenny.BreitlingOrbiter.BookContent}}",
 				"ObjectId": "(O){{ModId}}_BreitlingOrbiterBookNote",
 				"Location": "null",
 				"NoteTexture": "Mods/Si.BC/blankbook",
