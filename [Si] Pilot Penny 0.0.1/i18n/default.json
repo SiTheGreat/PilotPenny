@@ -169,6 +169,28 @@
 	"Si.PilotPenny.E9.12": "Well, the sky's the limit.$1#$b#But I hope she knows I'll always come back down to see her.",
 	"Si.PilotPenny.E9.13": "Heh, yeah...$2#$b#But that's alright.$3#$b#As long as she's still there for me.",
 	"Si.PilotPenny.E9.14": "Or maybe...$3#$b#...$2#$b#...maybe it doesn't matter.$3#$b#Whatever she says...$3#$b#All that matters, is that she'll be up here with me.#$b#We might have a long way to go, full of potholes and stray winds...$3#$b#But as long as she's standing here, that's good enough for me.$1",
+	// Mail 2
+	"Si.PilotPenny.M2.name": "Hot Air Balloon Materials",
+	"Si.PilotPenny.M2.content": "Hi @, I think I'll be able to build my own balloon based on some books I found and some tips Marcello gave me. It'll be a lot cheaper than buying one, at least! I can get most of the materials, but I need a lot of cloth. Can you help me? I promise to pay you back!  ^   -Penny",
+	// Mail 5
+	"Si.PilotPenny.M5.name": "Pilot Medical Certification",
+	"Si.PilotPenny.M5.content": "Hi @! I thought I'd update you on how my balloon pilot license is going. I got medically approved to fly by Harvey; he had a lot of questions about flying and balloons in general. He doesn't seem very interested in going up himself though. I'm currently studying for my written test. Marcello's approved my balloon design, so once I pass the test I'm going to start building it while I practice flying with him. Emily's been giving me tips about sewing and handling all the cloth I got from you.  ^   -Penny",
+	// Mail 6
+	"Si.PilotPenny.M6.name": "Check Ride",
+	"Si.PilotPenny.M6.content": "Hi @! I passed my written test, and my balloon is almost done! I'm having my (hopefully) final check ride with Marcello soon. After that, I'll be able to start flying on my own, and even taking passengers! Maybe after that we can go for a ride.  ^   -Penny",
+	// Mail 7
+	"Si.PilotPenny.M7.name": "Ready To Fly",
+	"Si.PilotPenny.M7.content": "I passed my check ride! 'With flying colors' is how Marcello put it. We also tested out my new balloon. It handles wonderfully! Stop by later, and I'll take you up!  ^   -Penny",
+	// Quest 1
+	"Si.PilotPenny.Q1.title": "Cloth For Penny",
+	"Si.PilotPenny.Q1.text": "Penny needs cloth to build her own hot air balloon.",
+	"Si.PilotPenny.Q1.objective": "Deliver 50 Cloth to Penny",
+	"Si.PilotPenny.Q1.reaction": "It'll be small...$3#$b#And it won't go very high...$3#$b#But it'll work for practice at least.#$b#Thanks @!$1#$b#I'll go over the plans with Marcello before I start building it.",
+	// Quest 2
+	"Si.PilotPenny.Q2.title": "More Cloth For Penny",
+	"Si.PilotPenny.Q2.text": "Pam asked you to get more cloth for Penny's hot air balloon.",
+	"Si.PilotPenny.Q2.objective": "Deliver 30 Cloth to Penny",
+	"Si.PilotPenny.Q2.reaction": "More cloth...?$3#$b#From my mom?!$12#$b#I can't believe it!$1#$b#Wow, I guess that means she...$7#$b#...$1#$b#Thanks for delivering this @. It means the world to me.",
 	// Books //////////////////////////////////////////////////////////
 	// Book Mails
 	"Si.PilotPenny.Books.MailName1": "Introducing Hot Air Balloons",
