@@ -38,7 +38,7 @@
 				},
 		},
 
-		// Event Map
+		// Sky Map
 		{
 			"Action": "Load",
 			"Target": "Maps/{{ModId}}_Map1",
@@ -57,28 +57,6 @@
 						"X": 17,
 						"Y": 15
 					},
-					"Music": [
-						{
-							"Id": "BalloonMusicSpring",
-							"Track": "fall3",
-							"Condition": "SEASON Spring"
-						},
-						{
-							"Id": "BalloonMusicSummer",
-							"Track": "fall3",
-							"Condition": "SEASON Summer"
-						},
-						{
-							"Id": "BalloonMusicFall",
-							"Track": "fall3",
-							"Condition": "SEASON Fall"
-						},
-						{
-							"Id": "BalloonMusicWinter",
-							"Track": "fall3",
-							"Condition": "SEASON Winter"
-						},
-					],
 					"MusicDefault": "fall3",
 				},
 			},
