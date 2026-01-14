@@ -9,11 +9,11 @@
 		"Priority": "Late",
 		"Entries": {
 			// "AcceptGift_book_item": "Thank you! I'm almost finished with a book right now, but I'll read this one next!$h", // Vanilla line for reference
-			"AcceptGift_book_item": "Oh wow, this is a rare edition @!$12#$b#Where did you get it?#$b#The bookseller?$3#$b#I've seen him around, but those books look pretty expensive...$2#$b#That's why I usually go to the library instead.$1#$b#Well, I guess it's worth a visit if he's got books like this in stock.$3#$b#I'll stop by his stall next time he's in town.#$b#Thanks for the book @!$1#$action AddMail Current {{ModId}}_M1",
+			"AcceptGift_book_item": "{{i18n:Si.PilotPenny.AcceptGift_book_item}}#$action AddMail Current {{ModId}}_M1",
 		},
 		"When": {
 			"HasFlag:hostPlayer |contains={{ModId}}_M1": false,
-		}
+		},
 	},
 	
 	{

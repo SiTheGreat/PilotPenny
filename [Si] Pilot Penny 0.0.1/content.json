@@ -9,7 +9,7 @@
 		"PennyBalloonSched": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "When disabled, Penny will not stop by her balloon once a week."
+			"Description": "When disabled, Penny will not stop by her balloon every other Thursday."
 		},
 
 		"PennyBooksellerSched": {
