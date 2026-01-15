@@ -10,6 +10,7 @@
 		"Entries": {
 			// "AcceptGift_book_item": "Thank you! I'm almost finished with a book right now, but I'll read this one next!$h", // Vanilla line for reference
 			"AcceptGift_book_item": "{{i18n:Si.PilotPenny.AcceptGift_book_item}}#$action AddMail Current {{ModId}}_M1",
+			"AcceptGift_Positive_book_item": "{{i18n:Si.PilotPenny.AcceptGift_book_item}}#$action AddMail Current {{ModId}}_M1",
 		},
 		"When": {
 			"HasFlag:hostPlayer |contains={{ModId}}_M1": false,
@@ -43,17 +44,17 @@
 
 		"{{ModId}}_E8/e {{ModId}}_E7/n {{ModId}}_M3/A PilotPenny7/f Penny 2000": "continue/26 25/farmer 15 31 0 Pam 26 24 0/addQuest {{ModId}}_Q2/skippable/fade/pause 300/emote farmer 16/pause 200/speak Pam \"{{i18n:Si.PilotPenny.E8.0}}\"/pause 200/emote farmer 32/end/fade",
 
-		"{{ModId}}_H1/e {{ModId}}_E8/n {{ModId}}_M4/A PilotPenny8/f Penny 2000": "none/-1000 -1000/farmer -100 -100 2/mail {{ModId}}_M5/AddConversationTopic PilotPenny9 7/end",
+		// "{{ModId}}_H1/e {{ModId}}_E8/n {{ModId}}_M4/A PilotPenny8/f Penny 2000": "none/-1000 -1000/farmer -100 -100 2/mail {{ModId}}_M5/AddConversationTopic PilotPenny9 7/end",
 
-		"{{ModId}}_H2/e {{ModId}}_H1/n {{ModId}}_M5/A PilotPenny9/f Penny 2000": "none/-1000 -1000/farmer -100 -100 2/mail {{ModId}}_M6/AddConversationTopic PilotPenny10 5/end",
+		// "{{ModId}}_H2/e {{ModId}}_H1/n {{ModId}}_M5/A PilotPenny9/f Penny 2000": "none/-1000 -1000/farmer -100 -100 2/mail {{ModId}}_M6/AddConversationTopic PilotPenny10 5/end",
 
-		"{{ModId}}_H3/e {{ModId}}_H2/n {{ModId}}_M6/A PilotPenny10/f Penny 2000": "none/-1000 -1000/farmer -100 -100 2/mail {{ModId}}_M7/end",
+		// "{{ModId}}_H3/e {{ModId}}_H2/n {{ModId}}_M6/A PilotPenny10/f Penny 2000": "none/-1000 -1000/farmer -100 -100 2/mail {{ModId}}_M7/end",
 
-		"{{ModId}}_H4/e {{ModId}}_E9/A PilotPenny11/f Penny 2000": "none/-1000 -1000/farmer -100 -100 2/AddConversationTopic PilotPenny12 7/end",
+		// "{{ModId}}_H4/e {{ModId}}_E9/A PilotPenny11/f Penny 2000": "none/-1000 -1000/farmer -100 -100 2/AddConversationTopic PilotPenny12 7/end",
 
-		"{{ModId}}_H5/e {{ModId}}_H4/A PilotPenny12/f Penny 2000": "none/-1000 -1000/farmer -100 -100 2/AddConversationTopic PilotPenny13 7/end",
+		// "{{ModId}}_H5/e {{ModId}}_H4/A PilotPenny12/f Penny 2000": "none/-1000 -1000/farmer -100 -100 2/AddConversationTopic PilotPenny13 7/end",
 
-		"{{ModId}}_H6/e {{ModId}}_H5/A PilotPenny13/f Penny 2000": "none/-1000 -1000/farmer -100 -100 2/AddConversationTopic PilotPenny14 7/end",
+		// "{{ModId}}_H6/e {{ModId}}_H5/A PilotPenny13/f Penny 2000": "none/-1000 -1000/farmer -100 -100 2/AddConversationTopic PilotPenny14 7/end",
 
 		},
 	},
@@ -90,7 +91,7 @@
 		"Action": "EditData",
 		"Target": "Data/mail",
 		"Entries": {
-			"{{ModId}}_M2": "{{i18n:Si.PilotPenny.M2.content}}%action AddQuest {{ModId}}_Q1%%[#]{{i18n:Si.PilotPenny.M2.name}}",
+			"{{ModId}}_M2": "{{i18n:Si.PilotPenny.M2.content}}%item quest {{ModId}}_Q1 true%%[#]{{i18n:Si.PilotPenny.M2.name}}",
 			"{{ModId}}_M5": "{{i18n:Si.PilotPenny.M5.content}}[#]{{i18n:Si.PilotPenny.M5.name}}",
 			"{{ModId}}_M6": "{{i18n:Si.PilotPenny.M6.content}}[#]{{i18n:Si.PilotPenny.M6.name}}",
 			"{{ModId}}_M7": "{{i18n:Si.PilotPenny.M7.content}}[#]{{i18n:Si.PilotPenny.M7.name}}",
@@ -103,6 +104,69 @@
 		"Entries": {
 			"{{ModId}}_Q1": "ItemDelivery/{{i18n:Si.PilotPenny.Q1.title}}/{{i18n:Si.PilotPenny.Q1.text}}/{{i18n:Si.PilotPenny.Q1.objective}}/Penny 428 50/-1/35000/-1/false/{{i18n:Si.PilotPenny.Q1.reaction}}#$action AddMail Current {{ModId}}_M3#$action AddConversationTopic PilotPenny7 3",
 			"{{ModId}}_Q2": "ItemDelivery/{{i18n:Si.PilotPenny.Q2.title}}/{{i18n:Si.PilotPenny.Q2.text}}/{{i18n:Si.PilotPenny.Q2.objective}}/Penny 428 30/-1/25000/-1/false/{{i18n:Si.PilotPenny.Q2.reaction}}#$action AddMail Current {{ModId}}_M4#$action AddConversationTopic PilotPenny8 5",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"{{ModId}}_T1": {
+				"Id": "{{ModId}}_T1",
+				"MarkActionApplied": true,
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_E8, PLAYER_HAS_MAIL Current {{ModId}}_M4, !PLAYER_HAS_CONVERSATION_TOPIC Current PilotPenny8",
+				"Actions": [
+					"AddMail Current {{ModId}}_M5 tomorrow",
+					"AddConversationTopic PilotPenny9 7",
+				]
+			},
+			"{{ModId}}_T2": {
+				"Id": "{{ModId}}_T2",
+				"MarkActionApplied": true,
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_HAS_MAIL Current {{ModId}}_M5, !PLAYER_HAS_CONVERSATION_TOPIC Current PilotPenny9",
+				"Actions": [
+					"AddMail Current {{ModId}}_M6 tomorrow",
+					"AddConversationTopic PilotPenny10 5",
+				]
+			},
+			"{{ModId}}_T3": {
+				"Id": "{{ModId}}_T3",
+				"MarkActionApplied": true,
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_HAS_MAIL Current {{ModId}}_M6, !PLAYER_HAS_CONVERSATION_TOPIC Current PilotPenny10",
+				"Actions": [
+					"AddMail Current {{ModId}}_M7 tomorrow",
+				]
+			},
+			"{{ModId}}_T4": {
+				"Id": "{{ModId}}_T4",
+				"MarkActionApplied": true,
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_E9, !PLAYER_HAS_CONVERSATION_TOPIC Current PilotPenny11",
+				"Actions": [
+					"AddConversationTopic PilotPenny12 7",
+				]
+			},
+			"{{ModId}}_T5": {
+				"Id": "{{ModId}}_T5",
+				"MarkActionApplied": true,
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_T4, !PLAYER_HAS_CONVERSATION_TOPIC Current PilotPenny12",
+				"Actions": [
+					"AddConversationTopic PilotPenny13 7",
+				]
+			},
+			"{{ModId}}_T6": {
+				"Id": "{{ModId}}_T6",
+				"MarkActionApplied": true,
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION Current {{ModId}}_T5, !PLAYER_HAS_CONVERSATION_TOPIC Current PilotPenny13",
+				"Actions": [
+					"AddConversationTopic PilotPenny14 7",
+				]
+			},
 		},
 	},
 

@@ -8,10 +8,10 @@
 		"Action": "EditData",
 		"Target": "Data/mail",
 		"Entries": {
-			"{{ModId}}_BC_M1": "{{i18n:Si.PilotPenny.Books.MailContent1}}%action Additem (O){{ModId}}_BalloonIntroBookNote%% %action AddMail Current {{ModId}}_HasBalloonIntroBook%%[#]{{i18n:Si.PilotPenny.Books.MailName1}}",
-			"{{ModId}}_BC_M2": "{{i18n:Si.PilotPenny.Books.MailContent2}}%action Additem (O){{ModId}}_BouyancyBookNote%% %action AddMail Current {{ModId}}_HasBouyancyBook%%[#]{{i18n:Si.PilotPenny.Books.MailName2}}",
-			"{{ModId}}_BC_M3": "{{i18n:Si.PilotPenny.Books.MailContent3}}%action Additem (O){{ModId}}_BalloonCraftBookNote%% %action AddMail Current {{ModId}}_HasBalloonCraftBook%%[#]{{i18n:Si.PilotPenny.Books.MailName3}}",
-			"{{ModId}}_BC_M4": "{{i18n:Si.PilotPenny.Books.MailContent4}}%action Additem (O){{ModId}}_BalloonCertBookNote%% %action AddMail Current {{ModId}}_HasBalloonCertBook%%[#]{{i18n:Si.PilotPenny.Books.MailName4}}",
+			"{{ModId}}_BC_M1": "{{i18n:Si.PilotPenny.Books.MailContent1}}%item id (O){{ModId}}_BalloonIntroBookNote 1 %% %action AddMail Current {{ModId}}_HasBalloonIntroBook%%[#]{{i18n:Si.PilotPenny.Books.MailName1}}",
+			"{{ModId}}_BC_M2": "{{i18n:Si.PilotPenny.Books.MailContent2}}%item id (O){{ModId}}_BouyancyBookNote 1 %% %action AddMail Current {{ModId}}_HasBouyancyBook%%[#]{{i18n:Si.PilotPenny.Books.MailName2}}",
+			"{{ModId}}_BC_M3": "{{i18n:Si.PilotPenny.Books.MailContent3}}%item id (O){{ModId}}_BalloonCraftBookNote 1 %% %action AddMail Current {{ModId}}_HasBalloonCraftBook%%[#]{{i18n:Si.PilotPenny.Books.MailName3}}",
+			"{{ModId}}_BC_M4": "{{i18n:Si.PilotPenny.Books.MailContent4}}%item id (O){{ModId}}_BalloonCertBookNote 1 %% %action AddMail Current {{ModId}}_HasBalloonCertBook%%[#]{{i18n:Si.PilotPenny.Books.MailName4}}",
 		},
 	},
 
