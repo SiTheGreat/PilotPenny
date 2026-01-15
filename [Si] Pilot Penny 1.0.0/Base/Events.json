@@ -43,7 +43,7 @@
 
 		"{{ModId}}_E8/e {{ModId}}_E7/n {{ModId}}_M3/A PilotPenny7/f Penny 2000": "continue/26 25/farmer 15 31 0 Pam 26 24 0/addQuest {{ModId}}_Q2/skippable/fade/pause 300/emote farmer 16/pause 200/speak Pam \"{{i18n:Si.PilotPenny.E8.0}}\"/pause 200/emote farmer 32/end/fade",
 
-		"{{ModId}}_H1/e {{ModId}}_E8/n {{ModId}}_M4/A PilotPenny8/f Penny 2000": "none/-1000 -1000/farmer -100 -100 2/mail {{ModId}}_M5/AddConversationTopic PilotPenny9 12/end",
+		"{{ModId}}_H1/e {{ModId}}_E8/n {{ModId}}_M4/A PilotPenny8/f Penny 2000": "none/-1000 -1000/farmer -100 -100 2/mail {{ModId}}_M5/AddConversationTopic PilotPenny9 7/end",
 
 		"{{ModId}}_H2/e {{ModId}}_H1/n {{ModId}}_M5/A PilotPenny9/f Penny 2000": "none/-1000 -1000/farmer -100 -100 2/mail {{ModId}}_M6/AddConversationTopic PilotPenny10 5/end",
 

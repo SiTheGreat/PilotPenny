@@ -32,12 +32,13 @@
 		{
 			"Action": "Include",
 			"FromFile": "Base/Main.json",
-			// "When": {
-			// 	"Hearts:Penny": "8, 9, 10, 11, 12, 13, 14",
-			// }
+			"When": {
+				"Hearts:Penny": "8, 9, 10, 11, 12, 13, 14",
+			}
 		},
 
 		// Compatibility Patches //////////////////////////////////////////////////////////
+		// (None yet)
 
 		// {
 		// 	"Action": "Include",
@@ -53,6 +54,7 @@
 			"Action": "Include",
 			"FromFile": "Crossovers/Crossovers.json",
 			"When": {
+				"Hearts:Penny": "8, 9, 10, 11, 12, 13, 14",
 				"CrossoverContent": true
 			}
 		},
