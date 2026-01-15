@@ -37,6 +37,14 @@
 					"HasFlag:hostPlayer |contains={{ModId}}_M7": true,
 				},
 		},
+		// Offending tree map patch
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"FromFile": "Base/TreePatch.tmx",
+			"ToArea": { "X": 104, "Y": 25, "Width": 1, "Height": 1 },
+			"PatchMode": "Replace",
+		},
 
 		// Sky Map
 		{
@@ -70,47 +78,48 @@
 					"HasFlag:hostPlayer |contains={{ModId}}_M7": true,
 					"Weather": "Sun, Wind",
 				},
-			"MapTiles": [
+			"MapTiles": [,
+				// Warps to balloonsky
 				{
 					"Position": { "X": 104, "Y": 22 },
 					"Layer": "Buildings",
 					"SetProperties": {
-						"Action": "LockedDoorWarp 17 15 {{ModId}}_Map1 600 1700"
+						"Action": "Warp 17 15 {{ModId}}_Map1",
 					}
 				},
 				{
 					"Position": { "X": 105, "Y": 22 },
 					"Layer": "Buildings",
 					"SetProperties": {
-						"Action": "LockedDoorWarp 17 15 {{ModId}}_Map1 600 1700"
+						"Action": "Warp 17 15 {{ModId}}_Map1"
 					}
 				},
 				{
 					"Position": { "X": 106, "Y": 22 },
 					"Layer": "Buildings",
 					"SetProperties": {
-						"Action": "LockedDoorWarp 17 15 {{ModId}}_Map1 600 1700"
+						"Action": "Warp 17 15 {{ModId}}_Map1"
 					}
 				},
 				{
 					"Position": { "X": 104, "Y": 23 },
 					"Layer": "Buildings",
 					"SetProperties": {
-						"Action": "LockedDoorWarp 17 15 {{ModId}}_Map1 600 1700"
+						"Action": "Warp 17 15 {{ModId}}_Map1"
 					}
 				},
 				{
 					"Position": { "X": 105, "Y": 23 },
 					"Layer": "Buildings",
 					"SetProperties": {
-						"Action": "LockedDoorWarp 17 15 {{ModId}}_Map1 600 1700"
+						"Action": "Warp 17 15 {{ModId}}_Map1"
 					}
 				},
 				{
 					"Position": { "X": 106, "Y": 23 },
 					"Layer": "Buildings",
 					"SetProperties": {
-						"Action": "LockedDoorWarp 17 15 {{ModId}}_Map1 600 1700"
+						"Action": "Warp 17 15 {{ModId}}_Map1"
 					}
 				},
 			],
@@ -123,42 +132,42 @@
 					"Position": { "X": 17, "Y": 16 },
 					"Layer": "Buildings",
 					"SetProperties": {
-						"Action": "LockedDoorWarp 105 24 Town 600 2600"
+						"Action": "Warp 105 24 Town"
 					}
 				},
 				{
 					"Position": { "X": 18, "Y": 16 },
 					"Layer": "Buildings",
 					"SetProperties": {
-						"Action": "LockedDoorWarp 105 24 Town 600 2600"
+						"Action": "Warp 105 24 Town"
 					}
 				},
 				{
 					"Position": { "X": 16, "Y": 15 },
 					"Layer": "Buildings",
 					"SetProperties": {
-						"Action": "LockedDoorWarp 105 24 Town 600 2600"
+						"Action": "Warp 105 24 Town"
 					}
 				},
 				{
 					"Position": { "X": 19, "Y": 15 },
 					"Layer": "Buildings",
 					"SetProperties": {
-						"Action": "LockedDoorWarp 105 24 Town 600 2600"
+						"Action": "Warp 105 24 Town"
 					}
 				},
 				{
 					"Position": { "X": 17, "Y": 14 },
 					"Layer": "Buildings",
 					"SetProperties": {
-						"Action": "LockedDoorWarp 105 24 Town 600 2600"
+						"Action": "Warp 105 24 Town"
 					}
 				},
 				{
 					"Position": { "X": 18, "Y": 14 },
 					"Layer": "Buildings",
 					"SetProperties": {
-						"Action": "LockedDoorWarp 105 24 Town 600 2600"
+						"Action": "Warp 105 24 Town"
 					}
 				},
 			],
@@ -170,6 +179,7 @@
 			"Target": "Maps/Town",
 			"When": {
 					"HasFlag:hostPlayer |contains={{ModId}}_M7": true,
+					"Weather": "Rain, Storm, GreenRain, Snow",
 				},
 			"MapTiles": [
 				{

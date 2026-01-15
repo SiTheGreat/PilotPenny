@@ -47,9 +47,7 @@
 			"Entries": {
 				"PilotPenny7": "{{i18n:Si.PilotPenny.Emily.PilotPenny7}}",
 				"PilotPenny10": "{{i18n:Si.PilotPenny.Emily.PilotPenny10}}",
-				"PilotPenny11": "{{i18n:Si.PilotPenny.Emily.PilotPenny11}}",
 				"PilotPenny12": "{{i18n:Si.PilotPenny.Emily.PilotPenny12}}",
-				"PilotPenny13": "{{i18n:Si.PilotPenny.Emily.PilotPenny13}}",
 				"PilotPenny14": "{{i18n:Si.PilotPenny.Emily.PilotPenny14}}",
 			},
 		},
@@ -135,11 +133,6 @@
 			"Target": "Strings/StringsFromMaps",
 			"Entries": {
 				"{{ModId}}_BalloonMapString": "{{i18n:Si.PilotPenny.BalloonStrings.Time}}",
-			},
-			"Update": "OnTimeChange",
-			"When": {
-				"Time": "{{Range: 1700, 2600}}",
-				"Weather": "Sun, Wind",
 			},
 		},
 

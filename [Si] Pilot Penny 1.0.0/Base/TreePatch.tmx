@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="1" height="1" tilewidth="16" tileheight="16" infinite="0" nextlayerid="19" nextobjectid="45">
+ <properties>
+  <property name="BrookSounds" value=""/>
+  <property name="DayTiles" value=""/>
+  <property name="Fall_Objects" value=""/>
+  <property name="Light" value=""/>
+  <property name="NightTiles" value=""/>
+  <property name="Outdoors" value="T"/>
+  <property name="Spring_Objects" value=""/>
+  <property name="Summer_Objects" value=""/>
+  <property name="Warp" value=""/>
+  <property name="Winter_Objects" value=""/>
+ </properties>
+ <tileset firstgid="1" name="spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>
+ </tileset>
+ <layer id="1" name="Back" width="1" height="1">
+  <data encoding="csv">
+354
+</data>
+ </layer>
+ <layer id="2" name="Back2" width="1" height="1">
+  <properties>
+   <property name="Draw" value="Back"/>
+  </properties>
+  <data encoding="csv">
+0
+</data>
+ </layer>
+ <layer id="3" name="Back3" width="1" height="1">
+  <properties>
+   <property name="Draw" value="Back"/>
+  </properties>
+  <data encoding="csv">
+0
+</data>
+ </layer>
+ <layer id="4" name="Buildings" width="1" height="1">
+  <data encoding="csv">
+0
+</data>
+ </layer>
+ <layer id="5" name="Buildings2" width="1" height="1">
+  <properties>
+   <property name="Draw" value="Buildings"/>
+  </properties>
+  <data encoding="csv">
+0
+</data>
+ </layer>
+ <layer id="6" name="Paths" width="1" height="1">
+  <data encoding="csv">
+0
+</data>
+ </layer>
+ <layer id="7" name="Front" width="1" height="1">
+  <data encoding="csv">
+0
+</data>
+ </layer>
+ <layer id="17" name="Front2" width="1" height="1">
+  <data encoding="csv">
+0
+</data>
+ </layer>
+ <layer id="8" name="AlwaysFront" width="1" height="1">
+  <data encoding="csv">
+0
+</data>
+ </layer>
+ <objectgroup id="9" name="Back"/>
+ <objectgroup id="10" name="Back2"/>
+ <objectgroup id="11" name="Back3"/>
+ <objectgroup id="12" name="Buildings"/>
+ <objectgroup id="13" name="Buildings2"/>
+ <objectgroup id="14" name="Paths"/>
+ <objectgroup id="15" name="Front"/>
+ <objectgroup id="18" name="Front2"/>
+ <objectgroup id="16" name="AlwaysFront"/>
+</map>
