@@ -4,7 +4,7 @@
 	"Description": "Penny takes to the skies!",
 	"Version": "1.0.0",
 	"UniqueID": "Si.PilotPenny",
-	"UpdateKeys": [ "Nexus:" ],
+	"UpdateKeys": [ "Nexus:41273" ],
 	"ContentPackFor": {
 		"UniqueID": "Pathoschild.ContentPatcher",
 	},

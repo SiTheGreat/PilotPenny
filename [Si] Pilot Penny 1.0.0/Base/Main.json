@@ -78,7 +78,7 @@
 					"HasFlag:hostPlayer |contains={{ModId}}_M7": true,
 					"Weather": "Sun, Wind",
 				},
-			"MapTiles": [,
+			"MapTiles": [
 				// Warps to balloonsky
 				{
 					"Position": { "X": 104, "Y": 22 },
