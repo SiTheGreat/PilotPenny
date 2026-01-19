@@ -60,6 +60,24 @@
 		},
 	},
 
+	// Shop //////////////////////////////////////////////////////////
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Shops",
+		"When": {
+			"HasFlag: |contains={{ModId}}_ReceivedBreitlingOrbiterBook": false,
+			"HasSeenEvent:hostPlayer |contains={{ModId}}_E9": true,
+		},
+		"TargetField": [ "Bookseller", "Items" ],
+		"Entries":{
+			"{{ModId}}_BooksellerBreitlingOrbiterBook": {
+				"ItemId": "(O){{ModId}}_BreitlingOrbiterBookNote",
+				"AvailableStock": 1,
+			},
+		},
+	},
+
 	// Load book sprites //////////////////////////////////////////////////////////
 
 	{
@@ -220,7 +238,6 @@
 				"ExcludeFromShippingCollection": true,
 				"SpriteIndex": 4,
 				"ContextTags": [
-					"sold_book",
 					"bc_book",
 				],
 			},
@@ -491,17 +508,17 @@
 			"HasFlag: |contains={{ModId}}_ReceivedBreitlingOrbiterBook": true,
 		},
 	},
-	{
-		"Action": "EditData",
-		"Target": "Data/Objects",
-		"TargetField": [ "{{ModId}}_BreitlingOrbiterBookNote", "ContextTags" ],
-		"Entries": {
-			"sold_book": null,
-		},
-		"When": {
-			"HasFlag: |contains={{ModId}}_ReceivedBreitlingOrbiterBook": true,
-		},
-	},
+	// {
+	// 	"Action": "EditData",
+	// 	"Target": "Data/Objects",
+	// 	"TargetField": [ "{{ModId}}_BreitlingOrbiterBookNote", "ContextTags" ],
+	// 	"Entries": {
+	// 		"sold_book": null,
+	// 	},
+	// 	"When": {
+	// 		"HasFlag: |contains={{ModId}}_ReceivedBreitlingOrbiterBook": true,
+	// 	},
+	// },
 
 
 	// End //////////////////////////////////////////////////////////
