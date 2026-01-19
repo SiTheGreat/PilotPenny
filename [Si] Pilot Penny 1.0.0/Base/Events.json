@@ -106,7 +106,7 @@
 				"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_E8, PLAYER_HAS_MAIL Current {{ModId}}_M4, !PLAYER_HAS_CONVERSATION_TOPIC Current PilotPenny8",
 				"Actions": [
 					"AddMail Current {{ModId}}_M5 tomorrow",
-					"AddConversationTopic PilotPenny9 7",
+					"AddConversationTopic PilotPenny9 5",
 				]
 			},
 			"{{ModId}}_T2": {
