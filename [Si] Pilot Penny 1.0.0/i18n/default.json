@@ -6,6 +6,8 @@
 	"config.PennyBooksellerSched.description": "When disabled, Penny will not visit the Bookseller when he's in town on non-school days.",
 	"config.CrossoverContent.name": "CrossoverContent",
 	"config.CrossoverContent.description": "When disabled, crossover content with other mods will not occur. See mod page for list of crossover content.",
+	"config.PennySaloonBreakfastSched.name": "PennySaloonBreakfastSched",
+	"config.PennySaloonBreakfastSched.description": "When disabled and Part of a Saloon Breakfast is installed, Penny will not visit the Saloon for breakfast after completing that mod's questline.",
 	// Dialogue //////////////////////////////////////////////////////////
 	// Penny
 	"Si.PilotPenny.Penny.Town_110_27": "Hi @!#$b#Are you checking for new books too?$1",

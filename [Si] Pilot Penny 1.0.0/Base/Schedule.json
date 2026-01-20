@@ -5,16 +5,21 @@
 		// School days: Tue Wed Fri
 		// Other: Mon Sat
 		// Use every other Thursday
-		// Compat notes: CCR also has a Penny schedule on Thursdays
+		// Doc appt Winter 4
+		// Compat notes:
+		// CCR also has a Penny schedule on Thursdays
+		// Star Crossed Elliott/Penny has different sleep location; {{PennyBed}}
+		// Saloon Breakfast has a Thursday Penny schedule; {{PennyMorning}}
+		// Little Red Schoolhouse has a config option for Thursday schooldays - have players turn off balloonsched in config for now, figure out crossmod compat tokens later
 
 		{
 			"Action": "EditData",
 			"Target": "Characters/schedules/Penny",
 			"Priority": "Late",
 			"Entries": {
-				"11": "700 Town 35 89 2 penny_read/1110 Town 106 24 0/a1620 Town 44 77 2 penny_sit_down/1840 Trailer 4 9 1 penny_sleep",
+				"11": "700 {{PennyMorning}}/1010 Town 106 24 0/a1620 Town 44 77 2 penny_sit_down/1840 {{PennyBed}}",
 				"25": "GOTO 11",
-				"marriage_spring_11": "700 Town 35 89 2 penny_read/1110 Town 106 24 0/a1620 Town 44 77 2 penny_sit_down \"Strings\\schedules\\Penny:marriage_Mon.002\"/1810 bed",
+				"marriage_spring_11": "700 {{PennyMorning}}/1010 Town 106 24 0/a1620 Town 44 77 2 penny_sit_down \"Strings\\schedules\\Penny:marriage_Mon.002\"/1810 bed",
 				"marriage_spring_25": "GOTO marriage_spring_11",
 				"marriage_summer_11": "GOTO marriage_spring_11",
 				"marriage_summer_25": "GOTO marriage_spring_11",
@@ -25,7 +30,7 @@
 			},
 			"When": {
 				"HasSeenEvent:hostPlayer |contains={{ModId}}_E9": true,
-				"PennyBalloonSched": true
+				"PennyBalloonSched": true,
 			}
 		},
 
@@ -34,8 +39,8 @@
 			"Target": "Characters/schedules/Penny",
 			"Priority": "Late+1",
 			"Entries": {
-				"spring": "700 Town 35 89 2 penny_read/1110 Town 110 27 3/a1620 Town 44 77 2 penny_sit_down/1840 Trailer 4 9 1 penny_sleep",
-				"marriage_Mon": "700 Town 35 89 2 penny_read/1110 Town 110 27 3/a1620 Town 44 77 2 penny_sit_down \"Strings\\schedules\\Penny:marriage_Mon.002\"/1810 bed",
+				"spring": "700 {{PennyMorning}}/1010 Town 110 27 3/a1620 Town 44 77 2 penny_sit_down/1840 {{PennyBed}}",
+				"marriage_Mon": "700 {{PennyMorning}}/1010 Town 110 27 3/a1620 Town 44 77 2 penny_sit_down \"Strings\\schedules\\Penny:marriage_Mon.002\"/1810 bed",
 				"marriage_Thu": "GOTO marriage_Mon",
 				"marriage_Sat": "GOTO marriage_Mon",
 				"marriage_Sun": "GOTO marriage_Mon",
