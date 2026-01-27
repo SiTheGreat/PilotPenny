@@ -2,7 +2,7 @@
 	"Name": "[Si] Pilot Penny",
 	"Author": "SiTheGreat",
 	"Description": "Penny takes to the skies!",
-	"Version": "1.0.0",
+	"Version": "1.1.0",
 	"UniqueID": "Si.PilotPenny",
 	"UpdateKeys": [ "Nexus:41273" ],
 	"ContentPackFor": {
