@@ -2,18 +2,60 @@
 
 	"Changes": [
 
-	// Images ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// General ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	{
 		"Action": "Load",
-		"Target": "Characters/{{ModId}}_TempNPC",
+		"Target": "Characters/{{ModId}}_Marcello",
 		"FromFile": "Base/TempNPC.png",
 	},
 
 	{
+		"Action": "EditData",
+		"Target": "Data/Characters",
+		"Entries": {
+			"{{ModId}}_Marcello": {
+				// Char
+				"DisplayName": "{{i18n:Si.PilotPenny.Marcello.Name}}",
+				"CanSocialize": false,
+			}
+		}
+	},
+
+	// Marcello ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Portraits and sprites below were created by and are being used with permission from DolphinIsNotaFish
+	// Do not use/distribute these without their express permission
+
+	// Portraits
+
+	{
 		"Action": "Load",
-		"Target": "Portraits/{{ModId}}_TempNPC",
-		"FromFile": "Base/TempNPCPort.png",
+		"Target": "Portraits/{{ModId}}_Marcello",
+		"FromFile": "Base/Bookseller_Default.png",
+		"When": {
+			"Season": "Spring, Summer, Fall",
+		},
+	},
+
+	{
+		"Action": "Load",
+		"Target": "Portraits/{{ModId}}_Marcello",
+		"FromFile": "Base/Bookseller_DefaultWinter.png",
+		"When": {
+			"Season": "Winter",
+		},
+	},
+
+	// Sprite map patch
+	{
+		"Action": "EditImage",
+		"Target": "LooseSprites/Cursors_1_6",
+		"FromFile": "Base/Bookseller_WinterSprites.png",
+		"PatchMode": "Overlay",
+		"ToArea": { "X": 55, "Y": 475, "Width": 139, "Height": 36 },
+		"When": {
+			"Season": "Winter",
+		},
 	},
 
 	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
