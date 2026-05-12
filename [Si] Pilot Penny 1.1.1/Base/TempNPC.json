@@ -18,6 +18,16 @@
 				// Char
 				"DisplayName": "{{i18n:Si.PilotPenny.Marcello.Name}}",
 				"CanSocialize": false,
+				// Home
+				"HomeRegion": "Other",
+				"Home": [
+					{
+						"Id": "Default",
+						"Location": "BusStop",
+						"Tile": { "X": -100, "Y": -100 },
+						"Direction": "Down"
+					}
+				]
 			}
 		}
 	},
